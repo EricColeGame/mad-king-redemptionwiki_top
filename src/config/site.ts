@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Guides, Heroes, Bosses & Builds",
   description: "Your ultimate guide to Mad King Redemption! Explore heroes, bosses, builds, Forbidden Powers, progression tips and strategies.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://mad-king-redemptionwiki.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://mad-king-redemptionwiki.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@mad-king-redemptionwiki.top",
   gameUrl: "https://store.steampowered.com/app/2369580/Mad_King_Redemption/",
   heroVideoId: "Goohtr3TzVk", // Mad King Redemption - Official Gameplay Trailer (SECRET MISSION GAMES)
   social: {
