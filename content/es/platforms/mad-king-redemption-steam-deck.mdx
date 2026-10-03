@@ -1,0 +1,108 @@
+export const metadata = {
+  title: "Guía de Mad King Redemption en Steam Deck: compatibilidad, ajustes y soluciones",
+  description: "Compatibilidad de Mad King Redemption con Steam Deck explicada: cómo comprobar el estado Verificado, ajustar la configuración, arreglar cierres inesperados y jugar cómodamente.",
+  category: "platforms",
+  date: "2026-10-03",
+}
+
+Pocas cosas matan la emoción por un juego nuevo más rápido que una consola portátil que se niega a cooperar. Si estás buscando respuestas sobre mad king redemption steam deck, quieres una respuesta directa: ¿funciona y qué tan bien se siente? La versión corta es que la compatibilidad de Mad King Redemption con Steam Deck se reduce a dos cosas: el estado oficial de verificación del juego y cuánto tiempo estás dispuesto a dedicar a ajustar la configuración.
+
+Esa pregunta importa más en una consola portátil que en un escritorio. En un PC puedes forzar un título exigente con una mejora de GPU; en un Deck tienes un chip fijo, una pantalla fija y una batería que se agota más rápido de lo que te gustaría. Saber qué comprobar antes de comprar —y qué ajustar después de instalar— marca la diferencia entre una gran sesión portátil y una tarde perdida en solucionar problemas.
+
+## ¿Está Mad King Redemption verificado para Steam Deck? Cómo comprobarlo antes de comprar
+
+El programa Deck Verified de Valve es la señal más rápida disponible, y merece la pena entender qué promete realmente cada insignia. Una insignia no es una puntuación de calidad; es una declaración sobre qué tan bien se comporta el juego con los controles del Deck, el tamaño del texto y la configuración gráfica predeterminada.
+
+| Insignia | Qué significa | Qué esperar en la práctica |
+|---|---|---|
+| Verificado | Totalmente jugable con la configuración predeterminada y mando | Se inicia sin problemas, texto legible, sin configuración manual |
+| Jugable | Funciona, pero puede necesitar ajustes manuales | Posible texto pequeño, iconos de mando ausentes o una pasada por los ajustes |
+| No compatible | Actualmente no funciona de forma aceptable | El inicio puede fallar o el rendimiento puede ser inutilizable |
+| Desconocido | Aún no revisado | Los resultados dependen por completo de las pruebas de la comunidad |
+
+Empieza por la página de la tienda del juego y busca la insignia de compatibilidad cerca del botón de compra. Si falta la insignia, abre la biblioteca de Steam en tu Deck y filtra por "Great on Deck" para ver si el título aparece en la lista seleccionada por Valve.
+
+Como la verificación refleja cómo se comporta una compilación concreta en un momento concreto, un estado puede cambiar tras un parche importante. Un juego que estaba Verificado la temporada pasada puede bajar a Jugable después de una actualización del motor, y lo contrario también ocurre. Vuelve a comprobarlo antes de cada compra importante en lugar de fiarte de una captura antigua.
+
+La segunda opinión más útil es la [base de datos de compatibilidad ProtonDB](https://www.protondb.com/), gestionada por la comunidad, donde los jugadores informan de cómo funciona un título bajo Proton y qué opciones de inicio ayudaron. Trata esas entradas como experiencia de jugadores, no como evangelio: las revisiones de hardware, las versiones de Proton y los parches del juego influyen. Para la plataforma en sí, la [página oficial de compatibilidad de Steam Deck](https://store.steampowered.com/steamdeck) de Valve explica cómo se califica el programa Verificado.
+
+## Instalar y ejecutar Mad King Redemption en Steam Deck
+
+La instalación rara vez es la parte difícil, pero unos cuantos hábitos evitan la mayoría de los dolores de cabeza iniciales. Decide desde el principio si quieres el título en el SSD interno o en una tarjeta microSD: las instalaciones grandes en tarjetas lentas pueden alargar notablemente las pantallas de carga, incluso cuando el juego en sí funciona bien.
+
+| Paso | Dónde encontrarlo | Por qué importa |
+|---|---|---|
+| Confirmar la insignia | Página de la tienda, junto al botón de compra | Establece expectativas antes de gastar dinero |
+| Elegir una unidad | Biblioteca > Instalar > elegir almacenamiento | El SSD interno carga más rápido; una microSD de clase A2 es la siguiente mejor opción |
+| Dejar que los shaders se precarguen | Cola de descargas | Reduce los tirones en el primer inicio |
+| Probar con la configuración predeterminada | Menú del juego | Te da una referencia antes de cambiar nada |
+| Forzar una versión de Proton si es necesario | Propiedades > Compatibilidad | Rescata títulos que no se inician tal cual |
+
+Si el juego no arranca en absoluto, abre su panel de Propiedades en tu biblioteca, activa la anulación de compatibilidad y selecciona una compilación de Proton en el menú desplegable. Prueba primero la opción estable y luego Proton Experimental si la estable falla. Este único paso resuelve una sorprendente cantidad de quejas de "Mad King Redemption Steam Deck no se inicia" que circulan en los hilos de la comunidad.
+
+Otro hábito que merece la pena adoptar: inicia el juego una vez mientras estés cerca del Wi-Fi. Algunos títulos descargan partidas guardadas en la nube, paquetes de shaders o datos de configuración del primer arranque en ese inicio inicial, y hacerlo con una conexión estable evita una primera impresión corrupta.
+
+## Mejores ajustes para el rendimiento de Mad King Redemption en Steam Deck
+
+No hay un preajuste universal, pero sí un orden de operaciones fiable. Cambia una cosa a la vez, observa el gráfico de tiempo de fotograma y detente cuando la imagen te parezca lo bastante buena. Perseguir un número fijo que no puedes mantener de forma estable suele dar una experiencia peor que un límite ligeramente inferior que nunca baja.
+
+| Ajuste | Punto de partida sugerido | Razonamiento |
+|---|---|---|
+| Resolución | Nativa 1280x800 | La renderización no nativa suaviza el texto en una pantalla pequeña |
+| Preajuste gráfico | Un paso por debajo del máximo | Las sombras y los volumétricos cuestan lo máximo para la mínima ganancia visual |
+| Límite de fotogramas | 40 FPS con refresco de 40 Hz | Más fluido que 30, mucho más amable con la batería que 60 |
+| Límite de TDP | Déjalo en automático primero y luego bájalo gradualmente | Reduce el ruido del ventilador y el calor cuando conoces tu margen |
+| FSR | Escalado dentro del juego si se ofrece | Recupera fotogramas cuando bajas de la resolución nativa |
+| V-Sync | Activado solo si ves desgarro | Añade algo de latencia cuando está activado |
+
+La combinación de 40 Hz / 40 FPS es el clásico compromiso del Steam Deck, y aguanta bien en títulos más pausados y cargados de atmósfera. Si la acción se siente lenta, sube a 60 Hz y acepta el golpe a la batería. Si los ventiladores rugen durante escenas tranquilas, baja el límite de TDP en pequeños incrementos y vuelve a probar.
+
+Para quien busque la máxima fluidez en sus sesiones de Mad King Redemption en Steam Deck, resiste la tentación de acumular todas las opciones de escalado a la vez. Combinar el FSR del juego con el escalador a nivel de sistema del Deck suele producir una imagen borrosa que ningún contador de fotogramas puede redimir.
+
+## Versiones de Proton, controles y soluciones habituales
+
+La mayoría de los problemas entran en unos pocos grupos, y cada uno tiene una solución bastante predecible. Repasa la tabla siguiente antes de empezar a reinstalar nada: las reinstalaciones rara vez resuelven un problema de la capa de compatibilidad.
+
+| Síntoma | Causa probable | Solución a probar |
+|---|---|---|
+| No ocurre nada al iniciar | Incompatibilidad de Proton | Forzar Proton Experimental en Propiedades > Compatibilidad |
+| Pantalla negra o pantalla de inicio atascada | Problema de shaders o caché | Verificar la integridad de los archivos del juego y reiniciar |
+| El mando no responde | Plantilla de entrada incorrecta | Cambiar a una configuración de gamepad en los ajustes del mando |
+| Texto demasiado pequeño para leer | Escalado de la interfaz | Activar la lupa de pantalla del Deck desde el menú de Acceso rápido |
+| Audio con chisporroteo | Conflicto de salida | Alternar entre altavoces y auriculares y reiniciar el juego |
+| Conflicto de partida en la nube | Dos dispositivos en desacuerdo | Haz copia de seguridad de la carpeta de partidas locales antes de elegir una versión |
+
+Para títulos obstinados, los usuarios avanzados instalan compilaciones de Proton de la comunidad mediante herramientas como ProtonUp-Qt y las seleccionan por juego. Los informes de la comunidad sugieren que esto rescata a varios juegos que fallan con las compilaciones de serie, aunque los resultados varían según el parche y el modelo de Deck.
+
+La configuración del mando es el otro punto de fricción frecuente. Las plantillas integradas del Deck cubren la mayoría de los esquemas estándar de gamepad, pero si un título depende de asignaciones poco habituales, reasígnalas una vez y guarda la configuración en tu perfil para que las sesiones futuras la hereden automáticamente.
+
+## Batería, almacenamiento y juego con dock
+
+La portabilidad cambia el cálculo. Un ajuste que parece inofensivo en un escritorio enchufado puede reducir a la mitad tu tiempo de juego en un avión, así que planifica según el escenario en lugar de una única configuración "mejor".
+
+| Escenario | Qué cambia | Cómo adaptarse |
+|---|---|---|
+| Portátil, viaje largo | La batería es la limitación | Limitar a 40 Hz, bajar el brillo, limitar el TDP |
+| Portátil, cerca de un cargador | El rendimiento es la limitación | Subir el límite, aceptar más ruido del ventilador |
+| Con dock a un televisor | La resolución de salida aumenta | Espera una carga más pesada; apóyate en el escalado |
+| Almacenamiento limitado | El tamaño de instalación importa | Usa una microSD A2 y rota los títulos grandes |
+
+El juego con dock es donde más hay que ajustar las expectativas, porque forzar una resolución de salida mayor cuesta fotogramas que el modo portátil ocultaba. Si el rendimiento con dock decepciona, baja la resolución del juego y deja que el escalador haga el trabajo: una imagen un poco más suave en un televisor casi siempre es preferible a una con tirones.
+
+El almacenamiento también merece una mención. Las instalaciones modernas son grandes, y hacer malabares con tres o cuatro juegos grandes en una unidad interna de 64 GB es una batalla perdida. Guarda uno o dos favoritos en el SSD por los tiempos de carga y deja el resto en una tarjeta microSD de confianza.
+
+## FAQ
+
+**¿El soporte de Mad King Redemption en Steam Deck requiere una versión específica de Proton?**
+No necesariamente. Muchos títulos funcionan correctamente con la compilación de Proton predeterminada, y solo se necesita una anulación cuando un juego no se inicia o falla. Si la predeterminada falla, prueba Proton Experimental y luego una compilación de la comunidad. Consulta los informes de la comunidad para tu modelo exacto antes de dar por hecho que el juego está roto.
+
+**¿El juego está Verificado, es Jugable o No compatible?**
+Comprueba la insignia en la página de la tienda, ya que el estado está ligado a una compilación concreta y puede cambiar tras los parches. Si no se muestra ninguna insignia, el título no ha sido revisado y deberías basarte en la experiencia de los jugadores en las bases de datos de compatibilidad.
+
+**¿Puedo mejorar el rendimiento sin bajar la resolución?**
+Sí. Limita la tasa de fotogramas a 40 FPS con una frecuencia de refresco equivalente, reduce primero las sombras y los efectos volumétricos, y baja el límite de TDP cuando conozcas tu margen. Esos tres cambios suelen ofrecer las mayores ganancias con el menor coste visual.
+
+**¿Se transferirán mis partidas guardadas entre mi escritorio y mi Deck?**
+Eso depende de si el juego admite Steam Cloud. Cuando las partidas en la nube están activas, deja que termine la sincronización antes de iniciar en cualquiera de los dos dispositivos, y haz copias de seguridad de las carpetas de partidas locales si cambias de máquina con frecuencia. Los conflictos en la nube son mucho más fáciles de prevenir que de desenredar.
+
+Conseguir que Mad King Redemption funcione bien en Steam Deck tiene que ver sobre todo con la paciencia y un enfoque metódico: confirma la insignia de compatibilidad, instala en la unidad correcta, empieza desde los valores predeterminados y ajusta una cosa a la vez hasta que la experiencia se sienta correcta. Hazlo así y la portátil se convierte en una forma genuinamente agradable de jugar en lugar de un compromiso.

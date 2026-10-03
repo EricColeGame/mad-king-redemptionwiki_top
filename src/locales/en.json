@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "release": "Release",
+    "platforms": "Platforms",
+    "guide": "Guide",
+    "characters": "Characters",
+    "combat": "Combat",
+    "modes": "Modes",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -397,12 +404,40 @@
       "secondary": "Wishlist on Steam"
     }
   },
-  "bosses": {},
+  "release": {
+    "overviewTitle": "Mad King Redemption Wiki Release Info",
+    "overviewDescription": "Track the Mad King Redemption release date, early access plans, demo details, roadmap, trailer, and pricing in one place."
+  },
+  "platforms": {
+    "overviewTitle": "Mad King Redemption Wiki Platforms",
+    "overviewDescription": "Find out which platforms Mad King Redemption supports, including PC, Steam, Xbox Game Pass, PS5, and Steam Deck details."
+  },
+  "guide": {
+    "overviewTitle": "Mad King Redemption Wiki Guides",
+    "overviewDescription": "Step-by-step Mad King Redemption guides covering the beginner walkthrough, boss strategies, secret missions, and core tips."
+  },
+  "characters": {
+    "overviewTitle": "Mad King Redemption Wiki Characters",
+    "overviewDescription": "Meet the Mad King Redemption playable characters and heroes, and compare their skills, roles, and playstyles."
+  },
+  "combat": {
+    "overviewTitle": "Mad King Redemption Wiki Combat",
+    "overviewDescription": "Master Mad King Redemption combat with build guides, Dark Powers breakdowns, roguelite systems, and beat 'em up fundamentals."
+  },
+  "modes": {
+    "overviewTitle": "Mad King Redemption Wiki Game Modes",
+    "overviewDescription": "Learn how Mad King Redemption multiplayer, local co-op, and four-player sessions work before you invite friends."
+  },
+  "community": {
+    "overviewTitle": "Mad King Redemption Wiki Community",
+    "overviewDescription": "Read Mad King Redemption community discussions, reviews, and player feedback from around the web."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
+    "browseGuides": "Browse Guides",
+    "browseGuidesHint": "Start with the beginner guide, then work through bosses, builds, and hidden missions.",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
+    "viewAllGuides": "View all guides",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -428,9 +463,9 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Community Build Planner",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "characterGuides": "Character Guides",
+    "combatGuides": "Combat & Builds",
+    "platformGuides": "Platform Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
