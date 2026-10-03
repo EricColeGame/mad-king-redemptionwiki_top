@@ -1,1 +1,472 @@
-{}
+{
+  "site": {
+    "name": "Mad King Redemption Wiki",
+    "shortName": "Mad King Redemption",
+    "tagline": "Guides, Helden, Bosse & Builds",
+    "description": "Dein ultimativer Guide zu Mad King Redemption! Entdecke Helden, Bosse, Builds, Dark Powers, Fortschrittstipps und Strategien.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "release": "Release",
+    "platforms": "Plattformen",
+    "guide": "Guide",
+    "characters": "Charaktere",
+    "combat": "Kampf",
+    "modes": "Modi",
+    "community": "Community"
+  },
+  "home": {
+    "meta": {
+      "title": "Mad King Redemption Wiki – Builds, Guides & Quests",
+      "description": "Entdecke das Mad King Redemption Wiki mit detaillierten Guides, Charakter-Builds, Quest-Walkthroughs, Gameplay-Tipps und nützlichen Informationen, die Spielern schneller voranhelfen."
+    },
+    "hero": {
+      "eyebrow": "Dunkles Fantasy-Action-Abenteuer",
+      "title": "Mad King Redemption Wiki",
+      "description": "Ein Community-Guide zu Mad King Redemption mit Gameplay-Systemen, Charakteren, Fortschrittstipps, Builds, Quests und wichtigen Strategien für Spieler.",
+      "stats": [
+        "Gameplay-Systeme",
+        "Charakter-Builds",
+        "Quests & Walkthroughs",
+        "Fortschrittstipps"
+      ],
+      "primaryCta": "Anfänger-Guide",
+      "secondaryCta": "Bei Steam auf die Wunschliste",
+      "tertiaryCta": "Offiziellen Trailer ansehen",
+      "videoLabel": "Offizielle Medien"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Reise in Mad King Redemption",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Anfänger-Guide",
+          "description": "Lerne den Kern-Loop, die Steuerung und das Stamina-Management, damit deine ersten Stunden in Mad King Redemption reibungslos verlaufen."
+        },
+        {
+          "number": "2",
+          "title": "Upgrades & Fortschritt",
+          "description": "Investiere frühe Materialien in einen Schadenspfad und eine defensive Wahl, statt Upgrades über alle Werte zu verteilen."
+        },
+        {
+          "number": "3",
+          "title": "Welchen Helden wählen",
+          "description": "Vergleiche die vier spielbaren Helden und ihre Kampfrollen, um den Spielstil zu finden, der zu deiner natürlichen Kampfweise passt."
+        },
+        {
+          "number": "4",
+          "title": "Guide zum ersten Boss",
+          "description": "Bereite dich mit Phase-für-Phase-Taktiken, Positionierungsregeln und dem Erlösungsfenster auf Baron Morgrim vor."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade im Trend",
+      "quickLinks": [
+        "Anfänger-Guide",
+        "Kampf-Grundlagen",
+        "Boss-Guides",
+        "Dark Powers"
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Mad King Redemption?",
+      "paragraphs": [
+        "Mad King Redemption ist ein düsteres Fantasy-Beat-'em-up-Action-RPG mit Roguelite-Fortschritt. Du kämpfst dich als einer von vier spielbaren Helden durch das verdorbene Reich Aldermere, baust zwischen den Runs neue Stärke auf und entscheidest, ob der Mad King Erlösung oder die letzte Hinrichtung verdient.",
+        "Der Kampf verbindet Echtzeit-Distanzmanagement, Ausweichen und telegraphierte Angriffe mit einer run-basierten Upgrade-Wirtschaft. Vier spielbare Helden decken unterschiedliche Kampfrollen ab, Dark Powers verändern jeden Bosskampf, und bis zu vier Spieler können sich online oder lokal im Koop zusammentun. Jeder Guide in diesem Wiki hilft dir, Runs schneller abzuschließen und das Erlösungsende zu erreichen."
+      ],
+      "stats": [
+        {
+          "label": "Spielbare Helden",
+          "value": "4"
+        },
+        {
+          "label": "Siegespfade",
+          "value": "2"
+        },
+        {
+          "label": "Dark Powers",
+          "value": "4"
+        },
+        {
+          "label": "Koop-Gruppe",
+          "value": "Bis zu 4"
+        },
+        {
+          "label": "Schauplatz",
+          "value": "Aldermere"
+        },
+        {
+          "label": "Marken-Boss",
+          "value": "Baron Morgrim"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Das Mad King Redemption Wiki entdecken",
+      "description": "Acht Module zu Mad King Redemption decken alles ab, von deinem ersten Run bis zum finalen Erlösungsfenster. Springe unten in einen Bereich für Helden-Analysen, Boss-Taktiken, Build-Pfade und Fortschrittstipps.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Mad King Redemption Wiki Anfänger-Guide",
+          "description": "Ein Schritt-für-Schritt-Walkthrough durch deine ersten Stunden: Steuerung, Stamina, Upgrade-Ausgaben und die frühen Fehler, die neue Spieler ausbremsen.",
+          "href": "/guide/mad-king-redemption-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Belege deine Steuerung und lerne Bewegung, Kamera und den Basisangriff, bevor du dich in den ersten echten Kampf stürzt."
+            },
+            {
+              "label": "2",
+              "detail": "Lies jeden Tutorial-Tooltip: Dort verstecken sich Stamina-Regeneration, Parry-Timing und Gegenstandsgewicht."
+            },
+            {
+              "label": "3",
+              "detail": "Lege dich auf einen Upgrade-Pfad fest, statt frühe Materialien über alle Werte zu verteilen."
+            },
+            {
+              "label": "4",
+              "detail": "Übe Abstand und Punishes; höre auf anzugreifen, wenn ein Gegner zu einem schweren Treffer ausholt."
+            },
+            {
+              "label": "5",
+              "detail": "Behalte einen Heiltrank in Reserve und schaffe Abstand, bevor du ihn benutzt."
+            },
+            {
+              "label": "6",
+              "detail": "Räume optionale Räume bei voller Gesundheit, um Ausrüstung, Level und Lore vor dem Boss zu sammeln."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Mad King Redemption Wiki Charaktere",
+          "description": "Eine Heldendatenbank zu den vier spielbaren Charakteren, ihren Kampfrollen, Freischaltwegen und den Team-Kombinationen, die Runs tragen.",
+          "href": "/characters/mad-king-redemption-playable-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Vanguard",
+              "detail": "Frontkämpfer mit Taunts und Selbstheilung, ideal zum Erlernen von Gegnermustern."
+            },
+            {
+              "label": "Duelist",
+              "detail": "Hoher Einzelziel-Burst, der Flankieren und präzises Timing belohnt."
+            },
+            {
+              "label": "Caster",
+              "detail": "Flächenschaden aus dem Hintergrund und Elementkontrolle für Gegnergruppen."
+            },
+            {
+              "label": "Support",
+              "detail": "Buffs, Reinigungen und Wiederbelebungen, die eine Koop-Gruppe auf den Beinen halten."
+            },
+            {
+              "label": "Summoner",
+              "detail": "Skalierende Diener, die das Tempo drehen, sobald deine Upgrades greifen."
+            },
+            {
+              "label": "Hybrid",
+              "detail": "Flexibles Toolkit, das jede Rolle füllt, die deinem Team fehlt."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Mad King Redemption Wiki Tier-Liste",
+          "description": "Eine Spielstil-Rangliste der Helden und Upgrade-Optionen nach Überlebensfähigkeit, Schaden, Mobilität und einfacher Handhabung für neue Runs.",
+          "href": "/characters/mad-king-redemption-heroes",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Beste Allrounder: verzeihende Kits mit starker Sustain für die ersten Clears."
+            },
+            {
+              "label": "A",
+              "detail": "Hoher Schaden mit höherem Ausführungsaufwand, der sauberes Spacing belohnt."
+            },
+            {
+              "label": "B",
+              "detail": "Situative Spezialisten, die in bestimmten Boss-Matchups glänzen."
+            },
+            {
+              "label": "C",
+              "detail": "Nischen-Picks, die sich eher für erfahrene Runs und Herausforderungsmodi lohnen."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Mad King Redemption Wiki Boss-Guide",
+          "description": "Eine Phase-für-Phase-Bossstrategie zu Vorbereitung, Angriffsmustern, Rollenzuweisungen und dem Erlösungsfenster, das das Ende verändert.",
+          "href": "/guide/mad-king-redemption-boss-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Arbeite die Vorbereitungs-Checkliste ab: Verbrauchsgüter, Reinigung und defensive Cooldowns bereit."
+            },
+            {
+              "label": "2",
+              "detail": "Phase 1 lehrt das Moveset; lerne die Tells und halte deine Cooldowns zurück."
+            },
+            {
+              "label": "3",
+              "detail": "Phase 2 kombiniert Add-Wellen und Flächenkontrolle; bestimme einen Ansager für die Bewegung."
+            },
+            {
+              "label": "4",
+              "detail": "Phase 3 öffnet das Erlösungsfenster; zieht gemeinsam durch und führt die Aktion aus."
+            },
+            {
+              "label": "5",
+              "detail": "Der Finale Stand ist am dichtesten; überlebe zuerst und teile danach Schaden aus."
+            },
+            {
+              "label": "6",
+              "detail": "Setze nach dem Schließen des Fensters zurück; der Boss schlägt oft in den ersten drei Sekunden zurück."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Mad King Redemption Wiki Builds",
+          "description": "Build-Archetypen und Upgrade-Prioritäten für jeden Spielstil, von Burst-Crit-Runs bis zu nicht-tödlichen Erlösungs-Setups.",
+          "href": "/combat/mad-king-redemption-build",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Burst",
+              "detail": "Crit-first-Setup, das Einzelziele ausschaltet, bevor sie handeln können."
+            },
+            {
+              "label": "Attrition",
+              "detail": "Sustain- und Rüstungs-Picks, die lange, zermürbende Kämpfe gewinnen."
+            },
+            {
+              "label": "Evasion",
+              "detail": "Tempo und Ausweich-Erholung, um Schaden zu vermeiden statt ihn zu tanken."
+            },
+            {
+              "label": "Summoner",
+              "detail": "Diener-Robustheit und Cooldown-Reduktion für Arenakontrolle."
+            },
+            {
+              "label": "Non-Lethal",
+              "detail": "Kontroll- und Minderungs-Build, abgestimmt auf das Erlösungsende."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Mad King Redemption Wiki Dark Powers",
+          "description": "Eine Referenz zu den Dark Powers, die sich durch Bosskämpfe steigern, mit dem Tell und der richtigen Antwort für jede Stufe.",
+          "href": "/combat/mad-king-redemption-dark-powers",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Creeping Blight",
+              "detail": "Zehr deine Sustain aus und heilt den König; brich die Sichtlinie, setze zurück und greif erneut an.",
+              "badge": "Phase 1"
+            },
+            {
+              "label": "Hollow Roar",
+              "detail": "Unterbricht Zauber und bringt Verbündete ins Wanken; weiche hindurch aus, statt wegzulaufen.",
+              "badge": "Phase 2"
+            },
+            {
+              "label": "Crown Fracture",
+              "detail": "Beschwört Spiegel-Adds; räume sie auf, bevor du den König erneut angreifst.",
+              "badge": "Phase 3"
+            },
+            {
+              "label": "Final Dark Surge",
+              "detail": "Massiver zeitlich begrenzter Burst; führe die Trennungsaktion statt eines Schadensausbruchs aus.",
+              "badge": "Phase 4"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Mad King Redemption Wiki Gegner und Bosse",
+          "description": "Eine Gegner-Referenz zu den verdorbenen Gruppen, Biome-Bedrohungen und Boss-Begegnungen in ganz Aldermere.",
+          "href": "/guide/mad-king-redemption-baron-morgrim-boss",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Morgrim",
+              "detail": "Der Torwächter-Boss, dessen Split-Phase und Erlösungsfenster deine Gruppe testen."
+            },
+            {
+              "label": "Add-Wellen",
+              "detail": "Spiegel- und beschworene Adds, die Spieler bestrafen, die die Arena ignorieren."
+            },
+            {
+              "label": "Elites",
+              "detail": "Zähere umherstreifende Gegner, die Relikte und optionale Upgrades bewachen."
+            },
+            {
+              "label": "Verderbte",
+              "detail": "Verseuchte Gegnergruppen, deren stapelnde Debuffs die Sustain mit der Zeit aussaugen."
+            },
+            {
+              "label": "Biome",
+              "detail": "Gefahren und Gegnermischungen, die sich von einer Aldermere-Region zur nächsten ändern."
+            },
+            {
+              "label": "Wutphase",
+              "detail": "Verzweiflungs-Timer, die saubere Trades statt gierigen Schadens erzwingen."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Mad King Redemption Wiki Updates und Roadmap",
+          "description": "Verfolge Early-Access-Updates, Roadmap-Phasen, neue Helden, neue Biome und Balance-Änderungen, während Mad King Redemption wächst.",
+          "href": "/release/mad-king-redemption-roadmap",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "EA-Build",
+              "detail": "Die Live-Build-Phase, in der Kampf, Helden und Inhalte stetig wachsen."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Phasenpläne, die kommende Helden, Biome und Features gruppieren."
+            },
+            {
+              "label": "Patches",
+              "detail": "Die zuverlässigste Quelle für Balance- und Mechanikänderungen."
+            },
+            {
+              "label": "Neue Helden",
+              "detail": "Zusätzliche spielbare Charaktere und Rollen, die mit der Zeit hinzukommen."
+            },
+            {
+              "label": "Neue Biome",
+              "detail": "Frische Aldermere-Regionen mit neuen Gegnermischungen und Gefahren."
+            },
+            {
+              "label": "Balance",
+              "detail": "Feinabstimmungen, die Helden- und Upgrade-Ranglisten verschieben können."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Mad King Redemption rund um Helden, Koop, Bosse und das Erlösungsende.",
+      "items": [
+        {
+          "question": "Was ist Mad King Redemption?",
+          "answer": "Mad King Redemption ist ein düsteres Fantasy-Beat-'em-up-Action-RPG mit Roguelite-Fortschritt. Du kämpfst dich als einer von vier spielbaren Helden durch das verdorbene Reich Aldermere, baust zwischen den Runs neue Stärke auf und entscheidest, ob der Mad King Erlösung oder die letzte Hinrichtung verdient."
+        },
+        {
+          "question": "Kann ich Mad King Redemption im Koop spielen?",
+          "answer": "Ja. Mad King Redemption unterstützt Online-Koop für bis zu vier Spieler sowie lokalen Koop, wobei Gegner-Skalierung und gemeinsame Belohnungen auf die Gruppengröße abgestimmt sind. In einem Koop-Run zählt klare Rollenverteilung mehr als roher Schaden."
+        },
+        {
+          "question": "Wer ist der erste große Boss in Mad King Redemption?",
+          "answer": "Baron Morgrim ist die Torwächter-Begegnung in Mad King Redemption. Der Kampf durchläuft eine Lernphase, eine Split-Phase mit Add-Wellen und ein Erlösungsfenster, das eine koordinierte Gruppe belohnt."
+        },
+        {
+          "question": "Wie schalte ich das Erlösungsende in Mad King Redemption frei?",
+          "answer": "Mad King Redemption hat zwei Siegespfade. Während des Final Dark Surge hörst du auf anzugreifen und führst statt eines Schadensausbruchs die Trennungsaktion aus, um das Erlösungsende auszulösen; Schaden während des geskripteten Moments bricht es ab."
+        },
+        {
+          "question": "Welchen Helden sollten Anfänger in Mad King Redemption wählen?",
+          "answer": "Beginne mit einem verzeihenden Frontkämpfer oder Support-Helden in Mad King Redemption, während du Gegner-Tells und Stamina-Management lernst, und wechsle später in anspruchsvollere Schadensrollen, wenn sich der Kampfrhythmus natürlich anfühlt."
+        },
+        {
+          "question": "Wie lang ist die frühe Spielphase in Mad King Redemption?",
+          "answer": "Die ersten Stunden von Mad King Redemption, von der Tutorial-Region bis zum ersten großen Skillcheck, dauern je nach Build und Schwierigkeit meist ein bis drei Stunden. Sich Zeit zu nehmen ist insgesamt schneller, als Systeme zu überspringen, die du später brauchst."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Mad King Redemption zu meistern?",
+      "description": "Von deinen ersten Kämpfen bis zu den Endgame-Bosskämpfen deckt dich unser Community-Wiki mit kostenlosen, aktuellen Guides ab.",
+      "primary": "Den Anfänger-Guide lesen",
+      "secondary": "Bei Steam auf die Wunschliste"
+    }
+  },
+  "release": {
+    "overviewTitle": "Mad King Redemption Wiki Release-Infos",
+    "overviewDescription": "Verfolge Release-Datum, Early-Access-Pläne, Demo-Details, Roadmap, Trailer und Preis von Mad King Redemption an einem Ort."
+  },
+  "platforms": {
+    "overviewTitle": "Mad King Redemption Wiki Plattformen",
+    "overviewDescription": "Erfahre, welche Plattformen Mad King Redemption unterstützt, inklusive Details zu PC, Steam, Xbox Game Pass, PS5 und Steam Deck."
+  },
+  "guide": {
+    "overviewTitle": "Mad King Redemption Wiki Guides",
+    "overviewDescription": "Schritt-für-Schritt-Guides zu Mad King Redemption mit Anfänger-Walkthrough, Boss-Strategien, geheimen Missionen und Kerntipps."
+  },
+  "characters": {
+    "overviewTitle": "Mad King Redemption Wiki Charaktere",
+    "overviewDescription": "Lerne die spielbaren Charaktere und Helden von Mad King Redemption kennen und vergleiche ihre Skills, Rollen und Spielstile."
+  },
+  "combat": {
+    "overviewTitle": "Mad King Redemption Wiki Kampf",
+    "overviewDescription": "Meistere den Kampf in Mad King Redemption mit Build-Guides, Dark-Powers-Analysen, Roguelite-Systemen und Beat-'em-up-Grundlagen."
+  },
+  "modes": {
+    "overviewTitle": "Mad King Redemption Wiki Spielmodi",
+    "overviewDescription": "Erfahre, wie Multiplayer, lokaler Koop und Vier-Spieler-Sessions in Mad King Redemption funktionieren, bevor du Freunde einlädst."
+  },
+  "community": {
+    "overviewTitle": "Mad King Redemption Wiki Community",
+    "overviewDescription": "Lies Diskussionen, Reviews und Spielerfeedback aus der Mad King Redemption Community aus dem ganzen Web."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "browseGuides": "Guides durchsuchen",
+    "browseGuidesHint": "Beginne mit dem Anfänger-Guide und arbeite dich dann durch Bosse, Builds und versteckte Missionen.",
+    "updated": "Aktualisiert",
+    "viewAllGuides": "Alle Guides ansehen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Weiterlesen",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Mad King Redemption Wiki",
+    "about": "Das Mad King Redemption Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub zu Helden, Bossen, Builds, Quests und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Mad King Redemption Wiki. Nicht mit den Entwicklern oder Publishern des Spiels verbunden.",
+    "description": "Düsteres Fantasy-Action-Abenteuer-RPG. Guides, Helden, Bosse, Builds und Fortschritt.",
+    "playGame": "Bei Steam auf die Wunschliste",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Community-Build-Planer",
+    "beginnerGuide": "Anfänger-Guide",
+    "characterGuides": "Charakter-Guides",
+    "combatGuides": "Kampf & Builds",
+    "platformGuides": "Plattform-Guides",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
