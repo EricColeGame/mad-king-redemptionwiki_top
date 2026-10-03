@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/r2Ywd8aywt",
     youtube: "https://www.youtube.com/@secret_mission_games",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "es", "fr"],
   defaultLocale: "en",
 };
