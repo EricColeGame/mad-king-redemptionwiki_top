@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core loop, controls, and stamina management so your first hours in Mad King Redemption go smoothly."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Upgrade & Progression",
+          "description": "Spend early materials on one damage path and one defensive pick instead of spreading upgrades across every stat."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Which Hero to Pick",
+          "description": "Compare the four playable heroes and their combat roles to find the playstyle that fits how you naturally fight."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Mad King Redemption."
+          "title": "First Boss Guide",
+          "description": "Prepare for Baron Morgrim with phase-by-phase tactics, positioning rules, and the redemption window."
         }
       ]
     },
@@ -66,237 +66,295 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
-      ],
-      "cards": [
-        {
-          "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
-        },
-        {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
-        }
+        "Beginner Guide",
+        "Combat Basics",
+        "Boss Guides",
+        "Dark Powers"
       ]
     },
     "aboutGame": {
       "title": "What is Mad King Redemption?",
       "paragraphs": [
-        "Mad King Redemption is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Mad King Redemption is a dark fantasy beat 'em up action RPG with roguelite progression. You fight through the corrupted realm of Aldermere as one of four playable heroes, rebuild power between runs, and decide whether the Mad King earns redemption or a final execution.",
+        "Combat blends real-time spacing, dodges, and telegraphed attacks with a run-based upgrade economy. Four playable heroes cover distinct combat roles, Dark Powers reshape every boss encounter, and up to four players can share the fight in online or local co-op. Every guide on this wiki is built to help you clear runs faster and reach the redemption ending."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
+          "label": "Playable Heroes",
+          "value": "4"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Victory Paths",
+          "value": "2"
         },
         {
-          "label": "Genre",
-          "value": "Fighting RPG"
+          "label": "Dark Powers",
+          "value": "4"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Co-op Party",
+          "value": "Up to 4"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Setting",
+          "value": "Aldermere"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Signature Boss",
+          "value": "Baron Morgrim"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Mad King Redemption Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Eight Mad King Redemption modules cover everything from your first run to the final redemption window. Jump into a section below for hero breakdowns, boss tactics, build paths, and progression advice.",
       "modules": [
         {
           "order": 1,
-          "name": "Mad King Redemption Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/mad-king-redemption-codes",
-          "displayType": "code-box",
+          "name": "Mad King Redemption Wiki Beginner Guide",
+          "description": "A step-by-step walkthrough of your first hours: controls, stamina, upgrade spending, and the early mistakes that stall new players.",
+          "href": "/guide/mad-king-redemption-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Bind your controls and learn movement, camera, and the basic attack before your first real fight."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Read every tutorial tooltip: stamina recovery, parry timing, and item weight hide there."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Commit to one upgrade path instead of spreading early materials across every stat."
+            },
+            {
+              "label": "4",
+              "detail": "Practice spacing and punishes; stop attacking when an enemy winds up a heavy hit."
+            },
+            {
+              "label": "5",
+              "detail": "Keep a healing item in reserve and create distance before you use it."
+            },
+            {
+              "label": "6",
+              "detail": "Clear optional rooms while healthy to bank gear, levels, and lore before the boss."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/mad-king-redemption-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Mad King Redemption Wiki Characters",
+          "description": "A hero database covering the four playable characters, their combat roles, unlock routes, and the team pairings that carry runs.",
+          "href": "/characters/mad-king-redemption-playable-characters",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Vanguard",
+              "detail": "Frontline bruiser with taunts and self-sustain for learning enemy patterns."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Duelist",
+              "detail": "High single-target burst that rewards flanking and precise timing."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Caster",
+              "detail": "Backline area damage and elemental control for grouped enemies."
+            },
+            {
+              "label": "Support",
+              "detail": "Buffs, cleanses, and revives that keep a co-op party standing."
+            },
+            {
+              "label": "Summoner",
+              "detail": "Scaling minions that swing tempo once your upgrades come online."
+            },
+            {
+              "label": "Hybrid",
+              "detail": "Flexible toolkit that fills whatever role your team is missing."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/mad-king-redemption-tier-list",
+          "name": "Mad King Redemption Wiki Tier List",
+          "description": "A playstyle ranking of heroes and upgrade choices by survivability, damage, mobility, and ease of use for new runs.",
+          "href": "/characters/mad-king-redemption-heroes",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Best all-round picks: forgiving kits with strong sustain for first clears."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "High damage with a higher execution cost that rewards clean spacing."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Situational specialists that shine in specific boss matchups."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Niche picks better saved for experienced runs and challenge modes."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/mad-king-redemption-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Mad King Redemption Wiki Boss Guide",
+          "description": "A phase-by-phase boss strategy covering preparation, attack patterns, role assignments, and the redemption window that changes the ending.",
+          "href": "/guide/mad-king-redemption-boss-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Run the prep checklist: consumables, cleanse, and defensive cooldowns ready."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Phase 1 teaches the moveset; learn tells and hold your cooldowns."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Phase 2 layers add waves and area denial; assign one caller for movement."
+            },
+            {
+              "label": "4",
+              "detail": "Phase 3 opens the redemption window; commit together and execute the action."
+            },
+            {
+              "label": "5",
+              "detail": "Final Stand peaks in density; survive first and deal damage second."
+            },
+            {
+              "label": "6",
+              "detail": "Reset after the window closes; the boss often retaliates in the first three seconds."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/mad-king-redemption-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Mad King Redemption Wiki Builds",
+          "description": "Build archetypes and upgrade priorities for every playstyle, from burst crit runs to non-lethal redemption setups.",
+          "href": "/combat/mad-king-redemption-build",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Burst",
+              "detail": "Crit-first setup that deletes single targets before they can act."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Attrition",
+              "detail": "Sustain and armor picks that win long, grinding fights."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Evasion",
+              "detail": "Speed and dodge recovery to avoid damage instead of tanking it."
+            },
+            {
+              "label": "Summoner",
+              "detail": "Minion durability and cooldown reduction for arena control."
+            },
+            {
+              "label": "Non-Lethal",
+              "detail": "Control and mitigation build tuned for the redemption ending."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/mad-king-redemption-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Mad King Redemption Wiki Forbidden Powers",
+          "description": "A reference for the Dark Powers that escalate through boss fights, with the tell and the correct response for each stage.",
+          "href": "/combat/mad-king-redemption-dark-powers",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Creeping Blight",
+              "detail": "Drains your sustain and heals the King; break line of sight, reset, and re-engage.",
+              "badge": "Stage 1"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Hollow Roar",
+              "detail": "Interrupts casts and staggers allies; dodge through it instead of running away.",
+              "badge": "Stage 2"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Crown Fracture",
+              "detail": "Spawns mirror adds; clear them before you damage the King again.",
+              "badge": "Stage 3"
+            },
+            {
+              "label": "Final Dark Surge",
+              "detail": "Massive timed burst; perform the severing action instead of a damage dump.",
+              "badge": "Stage 4"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Mad King Redemption Wiki Enemies and Bosses",
+          "description": "An enemy reference for the corrupted groups, biome threats, and boss encounters found throughout Aldermere.",
+          "href": "/guide/mad-king-redemption-baron-morgrim-boss",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Morgrim",
+              "detail": "The gatekeeper boss whose split phase and redemption window test your group."
+            },
+            {
+              "label": "Add Waves",
+              "detail": "Mirror and summoned adds that punish players who ignore the arena."
+            },
+            {
+              "label": "Elites",
+              "detail": "Tougher roaming enemies that guard relics and optional upgrades."
+            },
+            {
+              "label": "Corrupted",
+              "detail": "Blighted enemy groups whose stacking debuffs drain sustain over time."
+            },
+            {
+              "label": "Biomes",
+              "detail": "Hazards and enemy mixes that change from one Aldermere region to the next."
+            },
+            {
+              "label": "Enrage",
+              "detail": "Desperation timers that force clean trades instead of greedy damage."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Mad King Redemption Wiki Updates and Roadmap",
+          "description": "Track Early Access updates, roadmap phases, new heroes, new biomes, and balance changes as Mad King Redemption grows.",
+          "href": "/release/mad-king-redemption-roadmap",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "EA Build",
+              "detail": "The live build phase where combat, heroes, and content keep expanding."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Phased plans that group upcoming heroes, biomes, and features."
+            },
+            {
+              "label": "Patches",
+              "detail": "The most reliable source for balance and mechanic changes."
+            },
+            {
+              "label": "New Heroes",
+              "detail": "Additional playable characters and roles added over time."
+            },
+            {
+              "label": "New Biomes",
+              "detail": "Fresh Aldermere regions with new enemy mixes and hazards."
+            },
+            {
+              "label": "Balance",
+              "detail": "Tuning passes that can shift hero and upgrade rankings."
             }
           ]
         }
@@ -304,27 +362,31 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Mad King Redemption.",
+      "description": "Quick answers to the most common Mad King Redemption questions about heroes, co-op, bosses, and the redemption ending.",
       "items": [
         {
           "question": "What is Mad King Redemption?",
-          "answer": "Mad King Redemption is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Mad King Redemption is a dark fantasy beat 'em up action RPG with roguelite progression. You fight through the corrupted realm of Aldermere as one of four playable heroes, rebuild power between runs, and decide whether the Mad King earns redemption or a final execution."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Can I play Mad King Redemption in co-op?",
+          "answer": "Yes. Mad King Redemption supports online co-op for up to four players as well as local co-op, with enemy scaling and shared rewards tuned around party size. Role clarity matters more than raw damage in a Mad King Redemption co-op run."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Who is the first major boss in Mad King Redemption?",
+          "answer": "Baron Morgrim is the gatekeeper encounter in Mad King Redemption. The fight moves through a learning phase, a split phase with add waves, and a redemption window that rewards a coordinated group."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I unlock the redemption ending in Mad King Redemption?",
+          "answer": "Mad King Redemption has two victory paths. During the Final Dark Surge, stop attacking and perform the severing action instead of a damage dump to trigger the redemption ending; dealing damage during the scripted beat cancels it."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Which hero should beginners pick in Mad King Redemption?",
+          "answer": "Start with a forgiving frontline or support-style hero in Mad King Redemption while you learn enemy tells and stamina management, then branch into higher-execution damage roles once the combat rhythm feels natural."
+        },
+        {
+          "question": "How long is the early game in Mad King Redemption?",
+          "answer": "The opening hours of Mad King Redemption, from the tutorial region through your first major skill check, usually take one to three hours depending on your build and difficulty. Taking your time is faster overall than skipping systems you will need later."
         }
       ]
     },
