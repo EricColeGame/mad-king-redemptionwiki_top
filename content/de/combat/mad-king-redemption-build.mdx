@@ -1,122 +1,79 @@
 export const metadata = {
-  title: "Mad-King-Redemption-Build-Guide: Werte, Fähigkeiten und Kampfrotation, die Kämpfe gewinnen",
-  description: "Ein praxisnaher Mad-King-Redemption-Build-Guide zu Werteprioritäten, Rotation, Ausrüstung, Boss-Matchups und den Fehlern, die deinen Run ausbremsen.",
+  title: "Mad King Redemption: Ein praktischer Leitfaden zum Roguelite-Beat'em'up",
+  description: "Was Mad King Redemption tatsächlich bewirbt, was der Early Access verbirgt und wie man über Heldenverbesserungen und Runs nachdenken kann, ohne Daten zu erfinden.",
   category: "combat",
-  date: "2026-10-03",
-}
+  date: "2026-10-14",
+};
 
-Der Mad-King-Redemption-Build ist der seltene Kampfarchetyp, der die Grausamkeit eines Gegners in deine Siegbedingung verwandelt. Anders als Glaskanonen-Setups, die zusammenbrechen, sobald ein Kampf über zwei Minuten hinausgeht, tauscht ein gut abgestimmter Mad-King-Redemption-Build den Eröffnungsburst gegen eskalierende Sustain ein – und bestraft jeden Fehler des Bosses und jedes Risiko, das du bewusst eingehst. Dieser Kompromiss ist wichtig, weil die meisten Endgame-Begegnungen in der langen, hässlichen Mitte des Kampfes gewonnen werden, nicht in den ersten zehn Sekunden.
+Mad King Redemption ist ein Side-Scrolling-Beat'em'up mit Roguelite-Elementen vom Entwickler SECRET MISSION, das am 14. Mai 2026 im Early Access auf Steam erschienen ist. Die Prämisse ist kompakt und düster: Ein Königreich ist dem Mad King zum Opfer gefallen, der sich verbotener Magie zuwandte, um die Königin wiederzubeleben, dabei seinen Verstand verlor und nun über ein zerstörtes Reich herrscht. Du kämpfst dich durch sein Reich, räumst Horden von Feinden in Brawler-Kämpfen aus dem Weg und lagerst zwischen und während der Runs Roguelite-Fortschritt obendrauf.
 
-Dieser Guide zeigt, wie der Archetyp tatsächlich funktioniert, welche Werte ihn tragen, wie du deine Fähigkeiten anordnest und wo er still auseinanderfällt.
+Das ist es, was die Store-Seite stützt, und es lohnt sich, dies sorgfältig von allem anderen zu trennen, was du möglicherweise gelesen hast. Early-Access-Spiele ziehen eine Menge selbstsicherer Ratschläge an, die der Dokumentation davoneilen, und Mad King Redemption ist keine Ausnahme. Dieser Artikel hält sich an das, was der Entwickler bewirbt, kennzeichnet, was nur Drittanbieter-Guides behaupten, und ist ehrlich darüber, was niemand überhaupt veröffentlicht hat.
 
-## Was der Mad-King-Redemption-Build tatsächlich macht
+## Was die Store-Seite tatsächlich bewirbt
 
-Zieht man die Lore ab, läuft jede Version dieses Archetyps auf derselben Maschine: Du gibst etwas Wertvolles aus, um später etwas Stärkeres zu erhalten. Leben, ein stapelnder Selbst-Debuff, ein beschworener Diener, den du zur Detonation bringst – die Währung ändert sich, das Muster nicht.
+Der offizielle Steam-Eintrag ist hier die Autorität, und er ist ziemlich konkret in vier Punkten:
 
-Wie auch immer dein Spiel es nennt – Schuldmesser, Schuldenzähler, Blutpreis – die Schleife hat immer drei Takte: **sammeln, umwandeln, auszahlen.** Der Skill-Ausdruck liegt einzig darin, wann du dich für die Umwandlung entscheidest.
+- **Die Prämisse eines gefallenen Königreichs.** Der Mad King nutzte verbotene Magie, um zu versuchen, die Königin wiederzubeleben, verlor seinen Verstand, und das Königreich fiel. Dies ist der Rahmen für die Kampagne, kein mechanisches Versprechen.
+- **Hordenkampf im Brawler-Stil.** Du erschlägst große Gruppen von Feinden mit einem Side-Scrolling-Beat'em'up-Steuerungsschema.
+- **Tiefe Roguelite-Elemente.** Runs sind mit Roguelite-Fortschritt strukturiert statt mit einer rein linearen Stage-für-Stage-Arcade-Leiter.
+- **Heldenverbesserungen und mehrere Skills.** Du verbesserst Helden und schaltest Skills frei. Die Seite beschreibt dies als ein System, nicht als eine feste Liste.
 
-- **Opfer als Treibstoff.** Du gibst eine defensive Ressource auf, um die Anzeige zu füllen.
-- **Eskalierende Erträge.** Jeder Stapel ist mehr wert als der letzte, frühe Stapel sind also billig und späte kostbar.
-- **Verzögerte Auszahlung.** Deine Schadensobergrenze kommt in der zweiten Hälfte des Kampfes, nicht am Anfang.
-- **Selbst zugefügtes Risiko.** Du bist dein eigener schlimmster Feind; ein falsch eingeschätztes Auszahlungsfenster tötet dich schneller als der Boss.
+Der Store rahmt das Ganze zudem als ein Beat'em'up ein, das Old-School-Steuerung und Retro-Gefühl mit 3D-Mechaniken kombiniert. Diese Kombination ist die Kernaussage zur Identität, und sie ist das Nützlichste, woran man sich halten kann, wenn man das Spiel bewertet.
 
-| Aspekt | Wie es aussieht | Warum es wichtig ist |
+Was die Seite **nicht** veröffentlicht: ein vollständiges Heldenverzeichnis, einen Skilltree, eine Bossliste, Schadenswerte, Freischaltstufen oder Drop-Raten. Wenn ein Guide irgendetwas davon als vom Entwickler bestätigte Daten präsentiert, behandle diese Behauptung mit Skepsis. Der In-Game-Kodex ist die Autorität für alles Numerische, und die Steam-Seite ist die Autorität dafür, was das Spiel zu sein behauptet.
+
+## „Redemption" als Designidee lesen, nicht nur als Titel
+
+Das Wort Redemption im Titel leistet eine Menge Arbeit, und es ist leicht, es zu überinterpretieren. Die Store-Beschreibung liefert dir das Motiv des Mad King — die Königin durch verbotene Magie wiederzubeleben — und die Konsequenz — Wahnsinn und ein gefallenes Königreich. Sie beschreibt keine Redemption-Mechanik, kein Moralitätssystem, keinen Vergebungsmesser und kein verzweigtes Ende, in dem der König gerettet wird.
+
+Wie sollte man also darüber nachdenken? Behandle Redemption als den thematischen Rahmen, der die Roguelite-Schleife rechtfertigt. Du dringst zurück in ein Königreich, das ein trauernder König zerbrochen hat, und die Struktur des Spiels — wiederholte Runs, sich anhäufende Verbesserungen, freigeschaltete Skills — spiegelt den Versuch wider, etwas rückgängig zu machen, das getan wurde. Das ist Interpretation, keine Dokumentation, und es lohnt sich, den Unterschied klar zu benennen.
+
+Falls eine Redemption-Mechanik in ausführlicherer Form existiert, besteht die Art der Überprüfung im Spiel selbst: Prüfe den Kodex, prüfe, ob ein Bildschirm am Ende eines Runs das Schicksal des Königs erwähnt, und beobachte die offizielle Seite auf Updates. Im Early Access können sich Systeme ändern, und der Entwickler hat im Store-Text keinen bestimmten narrativen Ausgang versprochen.
+
+## Helden, Skills und Verbesserungen: Fakten von Guide-Gerede trennen
+
+Hier zieht das Keyword tendenziell die unzuverlässigsten Texte an. Die Store-Seite sagt, dass du Helden verbesserst und mehrere Skills freischaltest. Sie sagt nicht, wie viele Helden existieren, welche Skills zu wem gehören, wie der Skilltree aussieht oder was eine Verbesserung kostet.
+
+| Art der Behauptung | Was wir sagen können | Wie man es überprüft |
 |---|---|---|
-| Schadensprofil | Niedriger Beginn, steile späte Rampe | Belohnt Geduld statt Burst-Fenster |
-| Defensive Ebene | Aktives Opfer, keine passive Minderung | Du musst Sicherheit wählen, nicht nur darauf bauen |
-| Primärressource | Eine stapelnde Anzeige, gespeist durch Selbstschaden | Anzeigen-Management *ist* die Rotation |
-| Bester Content | Lange Bosskämpfe, Mehrphasen-Begegnungen | Kurze Kämpfe enden, bevor die Auszahlung greift |
-| Schwäche | Burst-lastige Assassinen, harte Unterbrechungen | Du erreichst das Umwandlungsfenster selten |
-| Skill-Untergrenze | Mittel bis hoch | Bestraft gierige Spieler sofort |
+| Helden | Store bestätigt, dass Heldenverbesserungen existieren; kein Verzeichnis veröffentlicht | In-Game-Kodex; Updates der offiziellen Steam-Seite |
+| Skills | Store bestätigt mehrere freischaltbare Skills; keine Liste veröffentlicht | In-Game-Skillbildschirm während eines Runs |
+| Verbesserungen | Als System bestätigt, nicht als dokumentierte Tabelle | In-Game-Fortschritts-UI |
+| Schadenswerte, Drop-Raten, Freischaltstufen | Nirgends offiziell dokumentiert | Derzeit nicht aus öffentlichen Quellen überprüfbar |
 
-### Die dreiphasige Kampfschleife
+Drittanbieter-Guides mögen Builds, bevorzugte Helden oder Verbesserungsprioritäten beschreiben. Das sind sekundäre Beobachtungen von Spielern, keine Entwicklerdokumentation, und sie sollten als solche gekennzeichnet werden. Community-Build-Ratschläge können ein nützlicher Ausgangspunkt sein, aber sie spiegeln die Erfahrung eines Spielers mit einem Build wider, der sich bereits verschoben haben kann. Angesichts dessen, dass Mad King Redemption im Early Access ist, ist jeder Ratschlag dazu, welche Verbesserungen zu priorisieren sind, per Definition vorläufig.
 
-Betrachte jede Begegnung als Eröffnung, Mitte und Redemption-Fenster. In der Eröffnung bist du bewusst schwach – du baust Stapel auf und bleibst über der Lebensschwelle, die dich am Leben hält. In der Mitte stabilisierst du dich und tauschst kleine Umwandlungen gegen Überlebensfähigkeit. Im letzten Drittel hältst du dich nicht mehr zurück und lässt die Anzeige ihre Arbeit tun. Spieler, die direkt zu Phase drei springen wollen, sterben meist in Phase eins.
+Der praktische Ansatz: Spiele das Spiel, lies die In-Game-Kodex-Einträge, während sie freigeschaltet werden, und bilde dir deine eigene Meinung darüber, wie Verbesserungen mit dem Hordenkampf interagieren. Die Beat'em'up-Ebene belohnt Abstand, Crowd Control und das Wissen, wann man sich für eine Combo verpflichten sollte; die Roguelite-Ebene belohnt die Anpassung an das, was einem angeboten wird. Keine der beiden Ebenen ist in ausreichendem öffentlichen Detail dokumentiert, um sie mit einem kopierten Build abzukürzen.
 
-## Werteprioritäten und Ausrüstung für einen Mad-King-Redemption-Build
+## Wie man Runs ohne erfundene Zahlen angeht
 
-Der häufigste Fehler ist, zuerst Schaden zu stapeln. Ein Mad-King-Redemption-Build, der beim Aufbau seiner Anzeige stirbt, hat überhaupt keinen Schaden. Priorisiere den Wert, der dich dein eigenes Opfer überstehen lässt, und skaliere dann.
+Da keine offiziellen Schadenswerte, Drop-Raten oder Freischaltschwellen veröffentlicht sind, ist jeder „optimale" Pfad, den du liest, entweder aus der Community abgeleitet oder erfunden. Was du stattdessen tun kannst, ist, aus der beworbenen Struktur zu schließen.
 
-| Priorität | Werttyp | Von der Community berichtetes Ziel | Grund |
-|---|---|---|---|
-| 1 | Effektive Gesundheit / Sustain | Überlebe 3 Treffer in Folge | Du kannst keine Anzeige umwandeln, wenn du tot bist |
-| 2 | Ressourcengenerierung | Gleichmäßig, nicht sprunghaft | Sprunghafte Generierung erzwingt schlechtes Umwandlungs-Timing |
-| 3 | Anzeigen-skalierter Schaden | So hoch wie möglich nach 1–2 | Das ist dein eigentlicher Schadenswert |
-| 4 | Abklingzeitreduktion | Genug, um deinen Defensiv-Button zu loopen | Verhindert tote Fenster mitten im Opfer |
-| 5 | Roher Krit / Burst | Zuletzt | Lädt Schaden nach vorne, den du noch nicht nutzen kannst |
+Ein Beat'em'up mit Roguelite-Elementen verlangt typischerweise, dass du unmittelbare Überlebensfähigkeit gegen langfristiges Scaling abwägst. Wenn ein Run schlecht läuft, kann es wichtiger sein, Fortschritt in Richtung einer Heldenverbesserung zu sichern, als eine riskante Begegnung zu verfolgen. Wenn ein Run gut läuft, ist es meist die wertvollere Spielweise, tiefer zu gehen, bevor man auszahlt. Das sind allgemeine Prinzipien, keine Mad-King-Redemption-Spezifika, und du solltest sie gegen das testen, was das Spiel tatsächlich belohnt.
 
-Behandle diese Tabelle als Reihenfolge der Vorgehensweise, nicht als Einkaufsliste. Genaue Breakpoints verschieben sich mit jedem Spiel und Patch, und die Spielerfahrung variiert stark zwischen Titeln, die denselben Archetyp teilen.
+Beobachte auch die Behauptung der Retro-3D-Mechaniken genau. Ein Brawler, der Old-School-Steuerung mit 3D-Raummechaniken mischt, hat oft Hitbox- und Tiefenverhalten, das sich von reinen 2D-Arcade-Brawlern unterscheidet. Zu lernen, wie das Spiel vertikale Positionierung und Angriffsreichweite handhabt, ist wahrscheinlich früh wertvoller als jede Verbesserungswahl. Das ist eine direkte Konsequenz des beworbenen Designs, keine Behauptung über bestimmte Frame-Daten.
 
-| Slot | Worauf du achten solltest | Warnsignal |
-|---|---|---|
-| Waffe | Anzeigen-skalierte Multiplikatoren, Ressourcengewinn bei Treffer | Reiner flacher Angriff ohne Skalierung |
-| Brust / Kernverteidigung | Sustain und Schadensreduktion im Debuff | Werte, die nur bei voller Gesundheit funktionieren |
-| Ring / Amulett | Umwandlungseffizienz, Abklingzeitreduktion | Burst-Procs, die zu früh auslösen |
-| Stiefel | Mobilität zum Disengagen während der Aufbauphase | Bewegung an eine lange Abklingzeit gebunden |
-| Verbrauchsgüter | Notheilung, die du mitten in der Umwandlung auslösen kannst | Items, die deine eigenen Stapel löschen |
+## Early-Access-Realitäten und was zu erwarten ist
 
-Wenn du nach einem neuen Titel suchst, um den Archetyp auszuprobieren, ist [Steams Action-RPG-Katalog](https://store.steampowered.com/) ein vernünftiger Ausgangspunkt.
+Early Access bedeutet, dass die Store-Beschreibung eine Momentaufnahme ist, kein Vertrag. Der Entwickler hat Roguelite-Elemente, Heldenverbesserungen, mehrere Skills und Hordenkampf beschrieben. Er hat auf der Store-Seite keine Live-Roadmap, keine Patch-Frequenz und keinen endgültigen Content-Umfang beschrieben. Gehe nicht davon aus, dass ein Held, Skill oder Boss, der in einem Drittanbieter-Artikel erwähnt wird, sich nach einem Update noch genauso verhalten wird.
 
-## Rotation und Fähigkeitspriorität
+Die zuverlässigste Angewohnheit ist einfach: Prüfe die offizielle Steam-Seite, bevor du auf eine Behauptung über die Systeme des Spiels reagierst, und prüfe den In-Game-Kodex, bevor du auf eine Behauptung über Zahlen reagierst. Wenn eine Quelle auf keines von beiden verweisen kann, ist es Spekulation.
 
-Die Abfolge ist der Punkt, an dem dieser Build gute von großartigen Spielern trennt. Die Faustregel: Wandle niemals einen Stapel um, den du nicht umwandeln musstest, und halte niemals einen Stapel zurück, den du hättest ausgeben sollen.
-
-| Phase | Ziel | Aktionen | Häufiger Fehler |
-|---|---|---|---|
-| Eröffnung (0–20 %) | Sicher aufbauen | Defensiver Buff, leichtes Opfer, Chip-Schaden | Opfern in ein ungelesenes Boss-Muster |
-| Stabilisieren (20–60 %) | Anzeige halten | Kleine Umwandlungen für Heilung, Repositionierung | Panikhaftes Abladen der gesamten Anzeige |
-| Redemption-Fenster (60–90 %) | Hart umwandeln | Volle Auszahlung, Burst-Abklingzeiten, Aggression | Eine Phase zu früh auszahlen |
-| Abschluss (90–100 %) | Sauber abschließen | Umwandlung wiederholen, Gier ignorieren | An einer Mechanik sterben, die du schon überlebt hast |
-
-Eine nützliche Disziplin ist die „Ein-Drittel-Regel": Lass deine Anzeige in der Stabilisierungsphase nie mehr als etwa ein Drittel ihres Maximums überschreiten. Sie niedrig zu halten bedeutet, dass du immer Spielraum hast, einen Fehler zu verkraften, ohne den Run zu verlieren.
-
-## Boss-Matchups: Wo er glänzt und wo er kämpft
-
-Nicht jede Begegnung respektiert eine langsame Rampe. Zu wissen, welche Kämpfe du annimmst und für welche du umskillst, spart Stunden.
-
-| Boss-Archetyp | Schwierigkeit für diesen Build | Anpassung |
-|---|---|---|
-| Langsamer, telegraphierter Bruiser | Sehr günstig | Volle Gier – frei aufbauen und umwandeln |
-| Multi-Add-Beschwörer | Günstig | Cleave nutzen, um die Anzeige schneller zu füttern |
-| Schneller Combo-Assassine | Ungünstig | Opferstapel fallen lassen; als Standard-Bruiser spielen |
-| Fernkampf-Zoner | Ausgeglichen | Vor dem Kampf in Gap-Closer investieren |
-| Mehrphasiger Endboss | Stark | Die große Umwandlung für die letzte Phase aufsparen |
-
-Community-Berichte kennzeichnen schnelle, unterbrechungsintensive Assassinen durchweg als das schlechteste Matchup des Archetyps. Wenn das Endgame deines Spiels von diesem Muster dominiert wird, plane ein zweites Loadout ein, statt den Redemption-Pfad in jede Begegnung zu erzwingen.
-
-## Fünf Fehler, die einen Mad-King-Redemption-Build ausbremsen
-
-| Fehler | Symptom | Lösung |
-|---|---|---|
-| Zu viel Opfer früh | Sterben in der ersten Minute | Opfer bei einer festen Lebensschwelle begrenzen |
-| Zu frühes Auszahlen | Große Zahlen, verlorener Kampf | Umwandlung halten, bis der Boss sich auf eine Phase festlegt |
-| Abklingzeitreduktion ignorieren | Tote Fenster mitten in der Rotation | Einen Loop-freundlichen Abklingzeit-Breakpoint erreichen |
-| Reinen Schaden aufbauen | Schnelle Kills an Trash, Tode an Bossen | Zuerst in Sustain reinvestieren |
-| Ihn wie einen Burst-Build behandeln | Inkonsistente Ergebnisse | Die langsame Rampe akzeptieren und um sie herum spielen |
-
-Der rote Faden: Das ist ein Geduldsbuild. Wenn deine Instinkte auf Burst-Fenster trainiert sind, erwarte ein paar frustrierende Sessions, bevor der Rhythmus klickt.
-
-## Progression-Roadmap
-
-| Phase | Fokus | Erfolgssignal |
-|---|---|---|
-| Frühes Spiel | Dein eigenes Opfer überleben | Kämpfe ohne Notheilung beenden |
-| Mittleres Spiel | Gleichmäßige Anzeigengenerierung | Umwandlung etwa in jeder großen Phase verfügbar |
-| Spätes Spiel | Umwandlungswert maximieren | Boss-Lebensbalken fallen nach 60 % stark |
-| Endgame | Matchup-Anpassung | Du weißt, wann du den Build komplett wechseln solltest |
-
-Noch ein praktischer Rat: Protokolliere deine Tode. Nach Spielerfahrung gehen die meisten gescheiterten Runs mit diesem Archetyp auf eine einzige gierige Umwandlung zurück, nicht auf eine Ausrüstungslücke. Timing zu korrigieren ist billiger, als einen Build zu korrigieren.
+Es gibt keine Garantie, dass ein bestimmter Ansatz dich durch einen Run bringt, und dieser Artikel verspricht das nicht. Was er bietet, ist eine disziplinierte Art, das zu trennen, was SECRET MISSION bewirbt, von dem, was Spieler behaupten, was in einem Early-Access-Brawler, in dem sich die Meta noch bildet, wirklich nützlich ist.
 
 ## FAQ
 
-**Ist der Mad-King-Redemption-Build gut für Anfänger?**
-Er ist spielbar, aber unversöhnlich. Die Kernschleife ist einfach – aufbauen, umwandeln, auszahlen –, aber das Timing erfordert Disziplin. Anfänger fahren meist besser damit, zuerst einen geradlinigen Bruiser zu lernen und dann umzusteigen, sobald sich Boss-Muster lesbar anfühlen.
+**Ist Mad King Redemption ein Roguelike oder ein Beat'em'up?**
+Beides, laut der Store-Seite. Es wird als Side-Scrolling-Beat'em'up mit tiefen Roguelite-Elementen beschrieben, das Old-School-Steuerung und Retro-Gefühl mit 3D-Mechaniken kombiniert.
 
-**Wie viel Gesundheit sollte ich pro Zyklus opfern?**
-Es gibt keine universelle Zahl, da die Skalierung je nach Spiel und Patch unterschiedlich ist. Ein sicherer Ausgangspunkt ist eine feste Schwelle, die du nie überschreitest, niedrig genug, dass zwei aufeinanderfolgende Boss-Treffer dich nicht töten können. Erhöhe sie erst, wenn du Kämpfe durchweg mit übriger Gesundheit beendest.
+**Wie viele Helden gibt es im Spiel?**
+Die Store-Seite veröffentlicht kein Heldenverzeichnis. Sie bestätigt, dass Heldenverbesserungen und mehrere freischaltbare Skills existieren. Prüfe den In-Game-Kodex für die aktuelle Liste.
 
-**Funktioniert der Mad-King-Redemption-Build im PvP?**
-In seiner reinen Form selten. Menschliche Gegner bestrafen langsame Rampen, indem sie dich bursten, bevor die Anzeige relevant wird. Manche Spieler spielen eine Hybridversion mit kürzerem Umwandlungsfenster, aber generell ist es ein PvE-first-Archetyp.
+**Gibt es eine tatsächliche Redemption-Mechanik für den Mad King?**
+Nicht dokumentiert. Der Store beschreibt sein Motiv und seinen Fall, kein Redemption-System oder alternatives Ende. Überprüfe es im Spiel, falls eines auftaucht.
 
-**Was unterscheidet diesen Build von einem Standard-Bruiser?**
-Ein Bruiser mindert Schaden passiv. Ein Mad-King-Redemption-Build erzeugt seine Kraft durch kontrollierte Risiken, was bedeutet, dass seine Obergrenze höher und seine Untergrenze viel niedriger ist. Du tauschst Konsistenz gegen eine Auszahlung, die damit skaliert, wie gut du den Kampf liest.
+**Sind Community-Build-Guides zuverlässig?**
+Sie sind Drittanbieter-Beobachtungen, keine Entwicklerdokumentation. Nützlich als Ausgangspunkt, aber vorläufig während des Early Access.
+
+**Wo sollte ich nach offiziellen Details suchen?**
+Die [offizielle Steam-Store-Seite für Mad King Redemption](https://store.steampowered.com/app/2369580/) und der In-Game-Kodex sind die zwei Quellen, die am wichtigsten sind.

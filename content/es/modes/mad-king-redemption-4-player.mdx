@@ -1,113 +1,74 @@
 export const metadata = {
-  title: "Guía del modo Mad King Redemption 4 jugadores: roles, fases del jefe y estrategia ganadora",
-  description: "Aprende cómo funciona el modo Mad King Redemption 4 jugadores: configuración del lobby, asignación de roles, fases del jefe, escalado de dificultad y los errores que terminan las partidas.",
+  title: "Mad King Redemption: lo que realmente ofrece el Acceso Anticipado",
+  description: "Una mirada realista a Mad King Redemption, el beat'em'up roguelite de desplazamiento lateral de SECRET MISSION, y lo que documenta el Acceso Anticipado.",
   category: "modes",
-  date: "2026-10-03",
-}
+  date: "2026-10-14",
+};
 
-Pocos desafíos cooperativos castigan un trabajo en equipo descuidado tan rápido como el modo **Mad King Redemption 4 jugadores**. Cuatro personas comparten una arena, un jefe y una ventana de oportunidad que se encoge — y en el segundo en que un compañero se sale de posición, toda la partida suele venirse abajo. Es exactamente por eso que el formato **Mad King Redemption 4 jugadores** se ha convertido en el desafío predilecto para grupos que quieren una pelea que recompense la coordinación por encima del daño bruto.
+Mad King Redemption es un beat'em'up de desplazamiento lateral con elementos roguelite del desarrollador SECRET MISSION, lanzado en Acceso Anticipado el 14 de mayo de 2026 y vendido en [Steam](https://store.steampowered.com/app/2369580/). La premisa es compacta: el reino ha caído ante el Rey Loco, quien recurrió a la magia prohibida en un intento de resucitar a la reina y perdió la cordura en el proceso. Luchas contra hordas de enemigos, mejoras héroes y desbloqueas habilidades a lo largo de las partidas.
 
-Esta guía explica cómo funciona realmente el modo, cómo formar un equipo equilibrado de cuatro personas, qué roles sostienen el peso de la partida y los errores recurrentes que acaban con la mayoría de las partidas antes de la fase final. Ya sea que traigas un escuadrón preformado o que rellenes el último hueco mediante emparejamiento, los fundamentos a continuación se aplican.
+Debido a que el juego está en Acceso Anticipado, lo más útil que puede hacer este artículo es separar lo que la página de la tienda realmente anuncia de lo que reportan los jugadores y de lo que simplemente aún no está documentado. Si estás decidiendo si comprarlo, o ya lo tienes y quieres entender su estructura, esa separación importa más que cualquier guía de build especulativa.
 
-## Qué hace diferente al modo Mad King Redemption 4 jugadores
+## La premisa anunciada y el estilo de combate
 
-El encuentro central es el mismo que peleas con menos gente, pero el ajuste cambia drásticamente. Con cuatro jugadores en el campo, la pelea genera mucha más presión superpuesta: más fuentes de aggro, más mecánicas simultáneas y mucho menos margen para simplemente retroceder y reiniciar. En una partida en solitario o en dúo, normalmente puedes kitear para salir de una mala decisión. En un escuadrón completo, el pánico de un jugador se convierte en el problema de todos.
+La ficha de Steam describe un reino caído, un Rey Loco arruinado por la magia prohibida y un combate estilo brawler contra hordas de enemigos. Dos frases hacen mucho trabajo ahí: "controles old-school y sensación retro" combinadas con "mecánicas 3D". En la práctica, eso señala un beat'em'up en plano 2D — te mueves, golpeas, controlas multitudes — renderizado con recursos 3D en lugar de pixel art.
 
-Los informes de la comunidad describen consistentemente la versión de cuatro jugadores como una prueba de coordinación más que una prueba de daño. La experiencia de los jugadores sugiere que los grupos hacen wipe mucho más a menudo por dividir la atención y por reanimaciones mal sincronizadas que por equipo insuficiente.
+La página de la tienda también anuncia "profundos elementos roguelite", mejorar héroes y desbloquear múltiples habilidades. Ese es el marco del propio desarrollador. No especifica cuántos héroes existen, cómo funciona la economía de mejoras ni cuánto cuesta desbloquear una habilidad.
 
-| Factor | Partida en solitario / dúo | Partida de Mad King Redemption 4 jugadores |
-|---|---|---|
-| Durabilidad del jefe | Ajustada para una o dos fuentes de daño | Escala y exige una producción sostenida de múltiples roles |
-| Oleadas de esbirros | Escasas y fáciles de kitear | Más densas; normalmente necesitan un limpiador dedicado |
-| Temporizadores de fase | Relativamente indulgentes | Más ajustados, así que una ventana perdida escala rápidamente |
-| Economía de reanimaciones | Eres tu propia red de seguridad | Reanimaciones compartidas — un rescate codicioso puede acabar con la partida |
-| Comunicación | Opcional | Prácticamente obligatoria |
+## Lo que la página de la tienda documenta y lo que no
 
-La conclusión práctica: trata la versión de cuatro jugadores como una pelea diferente, no como una versión más ruidosa de la misma.
+Aquí es donde la mayoría de la cobertura de juegos en Acceso Anticipado se equivoca, así que vale la pena ser directo.
 
-## Cómo configurar un lobby limpio de cuatro jugadores
+| Documentado en la página de la tienda | No documentado en la página de la tienda |
+|---|---|
+| Desarrollador: SECRET MISSION | Lista completa de héroes |
+| Lanzamiento en Acceso Anticipado: 14 de mayo de 2026 | Estructura del árbol de habilidades o número de nodos |
+| Beat'em'up de desplazamiento lateral con elementos roguelite | Lista de jefes u orden de encuentros |
+| Hordas de enemigos, combate brawler | Valores de daño, fórmulas de escalado |
+| Mejorar héroes, desbloquear múltiples habilidades | Tasas de drop, nombres de monedas, precios |
+| Mecánicas 3D con sensación retro y controles old-school | Niveles de desbloqueo, costes de meta-progresión |
 
-La mayoría de las partidas fallidas se deciden antes de que el jefe siquiera se mueva. Unos minutos de preparación eliminan la mayor parte del caos evitable.
+Si una guía te dice el "mejor héroe" o te da números exactos, trátala como una observación de terceros y no como documentación del desarrollador. La página de la tienda no publica una lista completa de héroes, árbol de habilidades, lista de jefes ni valores de daño, y este artículo tampoco. Para esos detalles, el códice dentro del juego es la autoridad, y puede cambiar entre parches del Acceso Anticipado.
 
-| Paso | Qué hacer | Por qué importa |
-|---|---|---|
-| 1 | Confirma que todos estén en el mismo lobby antes de que termine la cuenta atrás | Los que llegan tarde pueden aparecer sin un rol acordado |
-| 2 | Asigna los roles en voz alta, no por suposición | Evita que dos jugadores apilen builds idénticas |
-| 3 | Verifica al menos una herramienta compartida de limpieza, curación o reanimación por pareja | Mantiene vivo al equipo a través de mecánicas superpuestas |
-| 4 | Haz un simulacro de movimiento de 30 segundos | Expone el lag, problemas de teclas y malos hábitos desde el principio |
-| 5 | Establece un orden de prioridad de reanimación | Elimina la duda cuando la cosa se pone ruidosa |
+## Cómo la estructura roguelite probablemente da forma a una partida
 
-Si estás rellenando un hueco con un jugador aleatorio, indica tu rol en el chat de inmediato. La experiencia de los jugadores sugiere que las expectativas no dichas son la mayor fuente de fricción en los grupos aleatorios: un desconocido que sabe que es el limpiador de esbirros designado juega muy diferente de uno que asume que es el carry de daño.
+La frase "elementos roguelite" en un brawler normalmente significa tres cosas: las partidas son autoconclusivas, la muerte te devuelve atrás y parte del progreso persiste entre intentos. La página de la tienda respalda explícitamente la mitad de la persistencia con "mejorar héroes y desbloquear múltiples habilidades" — ese es lenguaje de meta-progresión, no de progresión por partida.
 
-## Roles y equipamientos para un equipo equilibrado
+Lo que no está documentado es cuán generosa es esa persistencia. Un roguelite puede inclinarse hacia partidas cortas con fuertes mejoras permanentes, o hacia partidas largas donde la mayor parte de tu poder se encuentra dentro de la propia partida. Mad King Redemption no dice cuál. La respuesta honesta es que lo descubres jugando, y que el equilibrio puede cambiar mientras el juego está en Acceso Anticipado.
 
-Una composición de cuatro jugadores funciona mejor cuando cada hueco tiene un trabajo claramente definido. No necesitas una meta rígida, pero sí necesitas que dos jugadores no se peleen por la misma responsabilidad.
+En la práctica, eso significa que tus primeras sesiones se aprovechan mejor aprendiendo patrones de enemigos y gestión de multitudes que persiguiendo un orden óptimo de desbloqueo. En los beat'em'ups, el posicionamiento frente a una horda suele ser una palanca mayor que las estadísticas puras, y nada en la descripción de la tienda contradice eso.
 
-| Rol | Trabajo principal | Prioridades de equipamiento | Error fatal |
-|---|---|---|---|
-| Ancla | Atraer la atención del jefe y controlar su orientación | Supervivencia, control de aggro, un botón de pánico | Perseguir daño en lugar de mantener la posición |
-| Daño explosivo | Castigar las ventanas abiertas entre mecánicas | Alto daño a un solo objetivo, cooldowns cortos | Gastar cooldowns antes de que se abra la ventana |
-| Soporte | Mantener al equipo al máximo y limpiar desventajas | Curación en grupo, limpieza, movilidad | Curar de forma reactiva en lugar de preventiva |
-| Flex / Limpieza de esbirros | Encargarse de los esbirros, interrupciones y tareas de rescate | Daño en área, control de masas, movilidad | Vagar hacia el arco frontal del jefe |
+## Leer consejos de la comunidad sin salir quemado
 
-El hueco flex es el que más equipos hacen mal. En el modo **Mad King Redemption 4 jugadores**, los esbirros no son ruido de fondo: son el reloj. Si nadie se encarga de ellos, la pelea contra el jefe se convierte lentamente en una pelea contra esbirros, y el equipo pierde por desgaste.
+Las guías de terceros para juegos en Acceso Anticipado aparecen rápido y envejecen mal. Dos hábitos te evitan perder el tiempo con ellas.
 
-## Estrategia de equipo fase por fase
+Primero, comprueba si la guía indica una versión o fecha. Los cambios de equilibrio del Acceso Anticipado invalidan los detalles rápidamente. Una guía escrita en mayo de 2026 puede describir un juego que ya no existe para el otoño.
 
-Las fases de este encuentro se definen menos por umbrales de salud y más por cómo cambia la presión en la arena. La siguiente tabla describe el ritmo general que encuentra la mayoría de los grupos.
+Segundo, comprueba si la afirmación es algo que el juego siquiera podría documentar. "El Rey Loco usó magia prohibida" es premisa. "El héroe X tiene el mayor DPS" es una medición, y las mediciones cambian con los parches. Los consejos de build de la comunidad no son datos documentados por el desarrollador, y tratarlos como tal es como los jugadores terminan siguiendo una tier list obsoleta.
 
-| Fase | Qué cambia | Respuesta del equipo | Aviso que dar |
-|---|---|---|---|
-| Apertura | Los telegrafiados del jefe son lentos y legibles | Aprende los tiempos, guarda cooldowns, evita comprometerte de más | "Guardando cooldowns" |
-| Escalada | Llegan esbirros junto con las mecánicas del jefe | El flex rota hacia los esbirros; el ancla mantiene al jefe girado hacia otro lado | "Esbirros a la izquierda" |
-| Atención dividida | Dos mecánicas se resuelven a la vez | Emparejaos — nunca dejes que un jugador haga una mecánica en solitario | "Emparejaos dos y tres" |
-| Ejecución | Las ventanas de daño se acortan, los errores cuestan más | Descargad la ráfaga juntos, dejad de arriesgar por un golpe más | "Ventana ahora" |
+Si quieres verificar una afirmación, carga el juego, abre el códice dentro del juego y lee la entrada actual. Si el códice no lo lista, la afirmación es una inferencia de alguien. La [página oficial de Steam](https://store.steampowered.com/app/2369580/) es la otra comprobación — es donde SECRET MISSION publica su propia descripción y cualquier nota de Acceso Anticipado.
 
-El hábito más valioso aquí es emparejarse. Dos jugadores manejando una mecánica sobreviven mucho más a menudo que un jugador manejando dos. Los informes de la comunidad destacan repetidamente "todos dispersos" como la firma visual de un wipe.
+## Para quién es realmente este juego
 
-## Errores comunes que acaban con las partidas
+La combinación reduce la audiencia de forma útil. Si quieres un brawler con un ritmo arcade retro y te sientes cómodo con que las partidas se reinicien, el diseño anunciado apunta a ti. Si quieres una campaña escrita a mano con una lista fija de héroes y sin repetición, "elementos roguelite" es una advertencia, no una característica.
 
-- **Acumular roles.** Dos anclas o dos jugadores de daño explosivo se sienten fuertes sobre el papel y colapsan en el momento en que aparecen esbirros.
-- **Avaricia de daño.** Un golpe extra durante un telegrafiado rara vez vale una reanimación compartida.
-- **Rescates en solitario.** A menos que seas el rescatador designado, sigue luchando y deja que el jugador asignado se encargue.
-- **Transiciones de fase silenciosas.** La pelea se vuelve más difícil en silencio. Si nadie avisa del cambio, medio equipo sigue jugando la fase anterior.
-- **Ignorar la arena.** La posición importa más que el equipo en el encuentro **Mad King Redemption 4 jugadores**: las esquinas y los bordes suelen ser donde mueren las partidas.
+La etiqueta de Acceso Anticipado añade un segundo filtro. Los sistemas descritos hoy pueden cambiar. Mejorar héroes y desbloquear habilidades son características anunciadas, pero su ajuste es exactamente el tipo de cosa que se mueve durante el desarrollo. Comprar ahora significa comprar una versión, no un diseño terminado.
 
-| Error | Solución inmediata | Solución a largo plazo |
-|---|---|---|
-| Cooldowns superpuestos | Escalonadlos en voz alta | Acordad una rotación antes de la partida |
-| Reanimaciones tardías | Seguid el orden de prioridad | Ensayad los avisos de reanimación en un simulacro |
-| Visión de túnel en el jefe | Asignad a un jugador para avisar de los esbirros | Rotad al que avisa en cada intento |
-
-## Dificultad, escalado y comunicación
-
-La dificultad en el modo de cuatro jugadores no es solo un multiplicador de salud. Los ajustes más altos normalmente comprimen los temporizadores, aumentan la densidad de mecánicas superpuestas y reducen la indulgencia ante interrupciones fallidas.
-
-| Dificultad | Qué cambia | Ideal para |
-|---|---|---|
-| Casual / Práctica | Ventanas más largas, presión de esbirros más suave | Aprender los avisos y lo básico de los roles |
-| Estándar | Temporizadores y oleadas de esbirros equilibrados | La mayoría de los grupos preformados |
-| Difícil | Ventanas más ajustadas, mayor superposición de mecánicas | Equipos con roles fijos y comunicaciones limpias |
-| Pesadilla | Indulgencia mínima, muy castigador | Grupos coordinados que buscan un desafío |
-
-Elijas el ajuste que elijas, mantén las comunicaciones cortas y específicas. "Izquierda", "cambio" y "ventana" superan a las frases completas cada vez. El formato **Mad King Redemption 4 jugadores** recompensa a un equipo que suena como una lista de verificación y castiga al que suena como una conversación.
-
-Para un contexto más amplio sobre cómo los títulos cooperativos manejan el escalado y el diseño de roles, [el centro de juegos cooperativos de Steam](https://store.steampowered.com/tags/en/Co-op/) es un punto de referencia útil para comparar cómo otros juegos estructuran encuentros de cuatro jugadores.
+Nada de esto es una promesa sobre la calidad en ningún sentido. Es una descripción de lo que se ha anunciado y lo que no.
 
 ## Preguntas frecuentes
 
-**¿Puedes jugar al modo Mad King Redemption 4 jugadores con compañeros aleatorios?**
-Sí, pero espera una experiencia más dura. Los grupos aleatorios normalmente carecen de roles acordados, que es exactamente lo que castiga el modo. Indica tu rol en el chat al principio y sigue el orden de prioridad de reanimación incluso si nadie más lo hace.
+**¿Mad King Redemption es un roguelike o un beat'em'up?**
+Ambos, según la página de la tienda: un beat'em'up de desplazamiento lateral con elementos roguelite. El combate brawler es la base; la capa roguelite se asienta encima.
 
-**¿Se requiere un sanador dedicado en el formato Mad King Redemption 4 jugadores?**
-No estrictamente, pero alguna forma de sostenimiento compartido es casi obligatoria. Un equipo sin limpieza ni curación en grupo tiende a sobrevivir la fase de apertura y colapsar durante la fase de atención dividida.
+**¿Cuántos héroes jugables hay?**
+La página de la tienda no documenta una lista completa de héroes. Anuncia mejorar héroes y desbloquear múltiples habilidades. Consulta el códice dentro del juego para ver la lista actual.
 
-**¿Cuánto dura una partida típica?**
-La duración varía mucho más con la disciplina del equipo que con el ajuste de dificultad. Los grupos limpios avanzan por las fases rápidamente porque no pierden tiempo en wipes y reinicios. Los grupos desordenados pueden pasar la mayor parte de una sesión repitiendo la misma fase.
+**¿Cuándo se lanzó?**
+El Acceso Anticipado comenzó el 14 de mayo de 2026. Ese es el evento de lanzamiento verificado, no un lanzamiento completo de 1.0.
 
-**¿Cuál es la mayor diferencia entre las partidas en solitario y las de cuatro jugadores?**
-El juego en solitario se trata de ejecución personal; el modo **Mad King Redemption 4 jugadores** se trata de responsabilidad compartida. Puedes carrear una partida en solitario con pura habilidad. En una partida de cuatro jugadores, un jugador fuera de posición puede echar por tierra a tres jugadores que hacen todo bien.
+**¿La página de la tienda lista jefes o números de daño?**
+No. Las listas de jefes, los árboles de habilidades, los valores de daño y las tasas de drop no se publican ahí. Las fuentes de la comunidad pueden estimarlos, pero son observaciones de terceros.
 
-## Reflexiones finales
-
-El modo Mad King Redemption 4 jugadores se trata menos de encontrar la build más fuerte y más de eliminar variables. Asigna roles, acuerda los avisos, respeta el orden de reanimación y trata cada transición de fase como una pelea nueva. Haz esas cuatro cosas y el encuentro deja de sentirse injusto: empieza a sentirse como un puzle que tu grupo ya sabe resolver.
+**¿Dónde debería verificar los detalles?**
+La [página de la tienda de Steam](https://store.steampowered.com/app/2369580/) para la descripción oficial y las notas de Acceso Anticipado, y el códice dentro del juego para los sistemas actuales.

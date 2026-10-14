@@ -1,117 +1,82 @@
 export const metadata = {
-  title: "Mad King Redemption Roguelite Combat Guide: Builds, Boss Patterns, and Redemption Paths",
-  description: "A combat guide to the Mad King Redemption roguelite: boss phase reads, build priorities, upgrade economy, and practical tips for deeper runs.",
+  title: "Mad King Redemption: How Redemption Actually Works in a Fallen Kingdom",
+  description: "A practical guide to Mad King Redemption, the side-scrolling beat'em'up roguelite from SECRET MISSION, and what redemption means in play.",
   category: "combat",
-  date: "2026-10-03",
-}
+  date: "2026-10-14",
+};
 
-## Why Combat Fundamentals Decide Most Runs in the Mad King Redemption Roguelite
+Mad King Redemption is a side-scrolling beat'em'up with roguelite structure from developer SECRET MISSION, released in Early Access on 14 May 2026. According to its official [Steam store page](https://store.steampowered.com/app/2369580/), the kingdom has fallen to the Mad King, who used forbidden magic in an attempt to resuscitate the queen and lost his sanity in the process. You fight through hordes of enemies, upgrade heroes, and unlock skills across runs.
 
-If you have ever watched a promising run collapse because of one mistimed dodge, you already understand why the Mad King Redemption roguelite rewards discipline over frantic button mashing. Combat here behaves like a rhythm game wearing armor: enemies announce their intent, you answer, and the exchange repeats until one side runs out of health or patience.
+That premise invites a specific question: what does "redemption" mean here, and how does it show up in the way you actually play? This article separates what the developer advertises from what players report, and flags what simply isn't documented. Because the game is in Early Access, any system described below can change; the in-game codex and the store page are the authorities.
 
-That matters because the Mad King Redemption roguelite stacks permanent progression on top of moment-to-moment skill. One clean boss phase can fund several upgrades, while one panicked dodge can end a twenty-minute climb. Learning the combat vocabulary first makes every later choice — which relic to claim, which door to open, which stat to stack — far easier to judge.
+## What "redemption" means in the advertised premise
 
-Before every fight, ask three questions:
+The store description frames the story in terms of a fall: a ruler breaks a magical taboo to bring back the queen, and the cost is his mind and his kingdom. The word "redemption" in the title therefore points at a restoration arc, not a simple revenge story. You are moving through a kingdom that has already been ruined, against enemies that were once its people.
 
-- **What is this enemy's fastest attack?** That tells you your minimum reaction budget.
-- **What does it do when it loses a chunk of health?** Most enemies gain a new move instead of simply hitting harder.
-- **Where can I stand that is safe from two attacks at once?** Positioning beats raw damage output in almost every encounter.
+Worth noting: the store page describes the setup and the combat loop, but it does not publish a plot outline, an ending list, or a branching morality system. So if you are looking for confirmation that redemption is a tracked stat, a choice tree, or a locked ending, the store page does not document that. The honest answer is that the title's redemption theme is advertised as narrative framing, and how far it is mechanically rewarded is something you verify in-game.
 
-## Core Combat Loop: Reading the Tell, Answering the Tell
+## The core loop that "redemption" runs on
 
-Every attack in a well-designed action roguelite is preceded by a tell — a pose, a glow, a sound cue, or a shift in footing. Your job is not to memorize a list of animations but to build a habit: **see the tell, name the answer, execute.** Players who narrate fights internally tend to improve faster than players who simply grind more runs.
+The advertised loop is straightforward and worth stating plainly, because it shapes how you approach every run:
 
-| Enemy Tell | Safe Answer | Frequent Mistake |
-| --- | --- | --- |
-| Overhead windup with a raised weapon | Sidestep or dash through the swing, then punish | Backing straight up, which keeps you inside the arc |
-| Crouched low sweep | Jump or roll over the arc | Blocking chip damage that staggers you |
-| Charging stance in a straight line | Step perpendicular, let it pass, hit the recovery | Trading hits, which usually favors the enemy |
-| Charged ranged volley | Break line of sight or close distance during the reload | Standing still and trying to out-damage projectiles |
-| Summoning gesture | Clear the add first if it interrupts your damage | Ignoring adds until they stack into a wall |
+- You clear side-scrolling stages of enemies using brawler-style combat.
+- The game carries "deep roguelite elements," per the store description.
+- Between or across attempts, you upgrade heroes and unlock multiple skills.
 
-A useful rule of thumb from player experience: **punish windows are shorter than they feel and longer than they look.** Most beginners attack too early, eat a follow-up, and then blame the build. Count one extra beat after the animation settles before committing to a heavy attack.
+The store page also describes the design as combining old-school controls and a retro feel with 3D mechanics. That mix matters for the redemption framing: in a roguelite, the kingdom does not get fixed in one pass. You fail, you carry something forward, and you try again. Redemption as a theme maps cleanly onto a genre about repeated, incremental recovery.
 
-### Stamina, Cooldowns, and the Two-Beat Rule
+| Advertised by the developer | Not documented on the store page |
+|---|---|
+| Side-scrolling beat'em'up combat against hordes | A complete hero roster |
+| Roguelite progression structure | A full skill tree or unlock levels |
+| Hero upgrades and multiple unlockable skills | Boss list, damage values, drop rates |
+| Old-school controls and retro feel with 3D mechanics | Whether redemption is a tracked mechanic |
+| Early Access release on 14 May 2026 | Patch schedule, prices, future content |
 
-If the game uses stamina or a dodge cooldown, treat it as your real health bar. The two-beat rule is simple: never spend your last dodge unless the incoming attack would kill you anyway. Holding one escape in reserve converts dozens of losing exchanges into survivable ones.
+## Separating developer facts from community advice
 
-## Build Archetypes and Upgrade Priorities
+There is an active amount of third-party discussion around this game, and it is useful as long as you label it correctly. Third-party guides describe the loop in more granular terms than the store page does, and community posts often offer build advice. Treat both as secondary observation, not developer documentation.
 
-Builds in the Mad King Redemption roguelite generally fall into a few recognizable shapes. The strongest runs are rarely the ones with the highest damage number — they are the ones whose upgrades reinforce each other instead of pulling in different directions.
+The distinction has practical consequences. If a community guide tells you a particular skill combination is the strongest, that reflects one player's experience of a specific Early Access build. It is not a developer-confirmed tier list, and it may not survive the next update. If a guide claims a specific unlock level, damage number, or drop rate, and the official page does not state it, that claim is unverified.
 
-| Archetype | Core Strength | Main Risk | Upgrade Priority |
-| --- | --- | --- | --- |
-| Burst / Crit | Deletes single targets before they act | Fragile against groups and chip damage | Crit chance first, then crit damage, then one defensive pick |
-| Attrition / Bruiser | Wins long fights through sustain | Slow clear speed and resource drain | Healing or armor, then area damage, then mobility |
-| Evasion / Speed | Avoids most damage entirely | Punished hard by undodgeable or arena-wide attacks | Movement speed, dodge recovery, then on-hit effects |
-| Summoner / Utility | Controls the arena and splits enemy attention | Weak personal damage if minions die early | Minion durability, then cooldown reduction, then area effects |
+The reliable test is simple: check the in-game codex. Anything the game itself displays about heroes, skills, and progression outranks both the store description and any external guide.
 
-A practical rule: **commit to one archetype by the end of the first act.** Splitting upgrades between a crit build and a tank build usually produces a run that does neither job well. If a strong relic appears that does not fit, take it only if it solves a specific problem you are already losing to.
+## Reasoning about redemption as a player
 
-| Decision Point | Aggressive Choice | Conservative Choice | When to Pick It |
-| --- | --- | --- | --- |
-| Elite room vs. shop | Fight the elite for a relic | Buy a guaranteed upgrade | Take the elite when your health is above two-thirds |
-| Damage relic vs. defense relic | Damage | Defense | Defense when you already clear rooms quickly |
-| Extra gold vs. extra healing | Gold | Healing | Healing before a boss, gold before a shop |
+Given only the verified facts, here is a defensible way to think about the keyword without inventing systems.
 
-## Boss Phases and Redemption Mechanics
+Redemption in this game is structurally about accumulation, not a single decisive act. The genre the developer advertises, a roguelite, is built on the idea that a failed run still contributes: you upgrade heroes and unlock skills that carry forward. That means the "redemption" of the fallen kingdom is expressed through repeated attempts rather than a scripted moment of absolution.
 
-Boss design in the Mad King Redemption roguelite follows a familiar escalation: the first phase teaches the moveset, the second phase mixes two patterns together, and the final phase removes your safest hiding spot. Community reports consistently describe the same failure point — players learn phase one perfectly, then panic when phase two combines attacks they already know.
+Practically, that argues for treating each run as data. If a stage ends your run, the useful question is not only "what killed me" but "what did this run unlock or upgrade." Because progression is advertised as persistent-upgrade-based, a run that ends early is not necessarily a wasted one.
 
-| Phase | What Changes | What To Do | What To Avoid |
-| --- | --- | --- | --- |
-| Opening | Single, well-telegraphed attacks | Learn timing, bank damage, stay calm | Overcommitting to long attack chains |
-| Mid | Two patterns layered together | Keep moving in a fixed loop around the arena | Standing in one corner and hoping |
-| Late | Arena hazards or shrinking safe space | Reset your position after every exchange | Panic-dodging into hazards |
-| Final | Desperation combo or enrage timer | Trade only on guaranteed windows, use consumables early | Hoarding healing until it is too late |
+It also argues for patience with the hero and skill systems. The store page says you upgrade heroes and unlock multiple skills, but does not say how many. If you are trying to plan a long-term build before playing, you are working ahead of the documentation. Unlock what the game offers, observe what the codex says each option does, and adjust.
 
-### How Redemption Windows Usually Work
+Finally, the story framing and the mechanics may not stay in sync. A title can invoke redemption thematically while the systems are purely about power growth. Nothing on the official page confirms that narrative choices change outcomes, so do not assume they do until the game shows you.
 
-The "redemption" framing suggests a second-chance system, and most roguelites implement that idea in one of three ways: a conditional reward for finishing a fight cleanly, a currency you spend to undo a mistake, or a narrative branch unlocked by how you treat defeated foes. Player experience suggests the safest approach is to **assume the window is conditional and prepare for it early** — keep a consumable in reserve, avoid unnecessary chip damage, and finish phases deliberately rather than greedily. Because these systems vary by patch, verify specifics on the game's official store page rather than trusting a months-old video.
+## How to verify anything you read about this game
 
-For patch notes, developer announcements, and player discussions, [Steam's roguelite and roguelike hub](https://store.steampowered.com/tags/en/Roguelite/) is a reliable starting point for tracking updates across the genre.
+Because Mad King Redemption is in Early Access, information decays quickly. A short verification sequence saves time:
 
-## Run Economy and Meta-Progression
+1. Open the [official Steam page](https://store.steampowered.com/app/2369580/) and read the current description; it is the developer's own summary of advertised features.
+2. Check the in-game codex for any hero, skill, or progression detail. It is the authority inside the product.
+3. Check update or patch notes on the store page for changes to systems.
+4. If a third-party guide or community post makes a numeric claim the developer has not published, treat it as one player's observation of one build.
 
-The biggest difference between a player who reaches the final boss occasionally and one who reaches it consistently is how they spend resources. In the Mad King Redemption roguelite, currency has three jobs: fix a weakness, amplify a strength, or buy information.
-
-| Resource Type | Best Use | Poor Use |
-| --- | --- | --- |
-| In-run gold | Filling a gap your build cannot solve | Buying random upgrades with no synergy |
-| Permanent currency | Unlocking new starting options and flexibility | Maxing one stat that caps out early |
-| Consumables | Surviving a boss phase you have not mastered | Saving them for a "perfect run" that never comes |
-| Rerolls | Chasing a specific synergy piece | Fishing for a marginally better version of what you own |
-
-Meta-progression tips that hold up across most runs:
-
-- **Unlock breadth before depth.** New weapons and starting perks change how you play; raw stat upgrades usually do not.
-- **Bank permanent currency during losing runs.** A failed run that unlocks something is still progress.
-- **Practice the boss, not the biome.** Reaching a boss with full health matters more than clearing every side room.
-
-## Common Mistakes and How to Fix Them
-
-| Mistake | Why It Hurts | The Fix |
-| --- | --- | --- |
-| Dodging backward by default | Keeps you inside attack arcs | Dodge through or sideways, then reposition |
-| Hoarding healing items | Forces desperation plays | Use them at roughly half health |
-| Ignoring enemy audio cues | Removes your fastest warning system | Play with sound on, even at low volume |
-| Chasing damage stats only | Leaves no answer to burst damage | Take one defensive pick per act |
-| Restarting after one bad room | Prevents learning late-game patterns | Finish runs even when they look lost |
-
-Two habits separate improving players from stuck ones. First, **review deaths honestly**: was it a misread tell, a bad build decision, or a resource shortage? Second, **set a single goal per run** — "reach phase two without taking a hit" is a better objective than "win." Progress in a roguelite is measured in patterns recognized, not runs completed.
+This site is not a source for the game's data, and neither is any aggregator page that republishes store text without attribution. Go to the developer's own listing and to the game itself.
 
 ## FAQ
 
-**Is the Mad King Redemption roguelite beginner-friendly?**
-It depends on your experience with action roguelites. The early biomes generally teach core mechanics at a forgiving pace, and permanent upgrades soften the difficulty curve over time. New players should expect several failed runs before the combat rhythm clicks.
+**Is Mad King Redemption a roguelite or a straight beat'em'up?**
+The developer describes it as both: a side-scrolling beat'em'up with deep roguelite elements, combining old-school controls and a retro feel with 3D mechanics.
 
-**What is the best build for a first clear?**
-Community reports favor durable, forgiving setups — sustain or evasion over glass-cannon burst — because they let you survive long enough to learn boss patterns. Damage-focused builds become stronger once you already know the movesets.
+**Does the game have a redemption mechanic, like a morality meter?**
+The store page does not document one. Redemption appears as narrative framing in the premise. Confirm in the in-game codex before assuming a tracked system.
 
-**How important is meta-progression compared to skill?**
-Both matter, but skill compounds faster. Permanent upgrades raise your floor; pattern recognition raises your ceiling. A well-practiced player with minimal unlocks will usually outperform a heavily upgraded player who dodges on instinct.
+**How many heroes and skills are there?**
+Not documented on the official Steam page. The store description confirms hero upgrades and multiple unlockable skills, but not a complete roster or count.
 
-**How often should I change my strategy mid-run?**
-Adjust when a specific problem repeats. If you keep dying to the same attack or the same enemy type, that is a signal to pivot — not a reason to abandon a build that is otherwise working.
+**When did it release, and who made it?**
+SECRET MISSION released it in Early Access on 14 May 2026, per the official Steam listing.
 
-Master the tells, commit to one archetype, spend resources with intent, and the Mad King Redemption roguelite stops feeling unfair. It starts feeling like a conversation you finally know how to win.
+**Where should I look for accurate build advice?**
+Start with the in-game codex, then the store page's update notes. Community builds are observations of a moving Early Access target, not developer-confirmed data, and no guide can guarantee a successful run.

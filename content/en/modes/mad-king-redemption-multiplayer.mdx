@@ -1,132 +1,83 @@
 export const metadata = {
-  title: "Mad King Redemption Multiplayer Guide: Co-Op Roles, Strategy, and Winning Tips",
-  description: "Master mad king redemption multiplayer with mode comparisons, team roles, phase-by-phase strategy, and communication tips for cleaner co-op runs.",
+  title: "Mad King Redemption: A Roguelite Beat'em'Up Explained",
+  description: "Mad King Redemption is a side-scrolling beat'em'up roguelite from SECRET MISSION. Here's what the Early Access build actually documents.",
   category: "modes",
-  date: "2026-10-03",
-}
+  date: "2026-10-14",
+};
 
-The Mad King Redemption multiplayer mode takes one of gaming's oldest stories — a ruler who burned his own kingdom — and hands the ending to a team instead of a lone hero. Instead of watching a scripted redemption arc play out, you and your squad decide whether the crown gets reforged or shattered. That single design choice is why Mad King Redemption multiplayer plays less like a damage race and more like a coordination test: timing, positioning, and shared decisions matter far more than individual score. If you have ever wiped on the final phase because one player triggered the choice early, you already understand why this guide exists.
+Mad King Redemption is a side-scrolling beat'em'up with roguelite elements from developer SECRET MISSION, released in Early Access on 14 May 2026. Its premise is a fallen kingdom: the Mad King turned to forbidden magic in an attempt to resuscitate the queen, lost his sanity in the process, and left the realm overrun. You play as heroes fighting through those hordes.
 
-## What Is Mad King Redemption Multiplayer?
+That is the short version, and it is almost entirely drawn from the official [Steam store page](https://store.steampowered.com/app/2369580/). Since the game is in Early Access, the most useful thing this article can do is separate what the developer actually advertises from what third-party guides claim, and from what nobody has documented yet. If you want a build guide with exact numbers, this is not that article — and you should be suspicious of any page that pretends otherwise.
 
-At its core, this mode reframes a story-driven redemption arc as a cooperative challenge. You and your teammates push through a ruined kingdom, fight the Mad King's remaining loyalists, and slowly unlock the information needed to either redeem him or end him. Progress is tracked on a shared meter rather than per-player, which means one reckless teammate can drag the entire run toward the darker ending.
+## What the store page actually advertises
 
-The defining feature is that redemption is a resource, not a cutscene. Actions like sparing surrendered enemies, protecting civilians, and restoring shrines feed the meter. Actions like executing prisoners, looting holy sites, or ignoring downed allies drain it. The ending you get is the sum of everyone's choices, not a vote taken at the end.
+The official Steam description is specific about a few things and silent about many others. Here is what it commits to:
 
-### Core Loop at a Glance
+- **Genre framing:** a beat'em'up that combines old-school controls and a retro feel with 3D mechanics.
+- **Combat:** brawler-style fighting against hordes of enemies.
+- **Roguelite structure:** the store describes "deep roguelite elements."
+- **Progression:** upgrading heroes and unlocking multiple skills.
+- **Narrative setup:** the kingdom has fallen to the Mad King, who used forbidden magic to try to resuscitate the queen and lost his sanity.
 
-- **Enter the zone** through a breach point chosen by the team leader.
-- **Push objectives** while managing a shared corruption or redemption meter.
-- **Survive the King's response**, which escalates based on how much progress you have made.
-- **Reach the throne confrontation**, where the meter determines which final phase you fight.
-- **Extract or fall**, then carry progression rewards into the next run.
+Notice what is absent. The store page does not publish a complete hero list, a skill tree, a boss list, or any damage values. It does not describe meta-progression currencies, run length, difficulty tiers, or unlock levels. That is not an oversight you can patch over by reading a wiki — it means those systems are either still in flux or documented only inside the game.
 
-Because the meter is shared, most veteran groups treat Mad King Redemption multiplayer as a communication exercise first and a combat game second. You can check the official Steam store page for the current build's mode list and patch notes before committing to a strategy.
+## Separating advertised features from community guesswork
 
-## Modes, Team Sizes, and Difficulty at a Glance
+This is the part where a lot of coverage goes wrong. The phrase "deep roguelite elements" is a marketing summary, not a spec sheet. It tells you there is run-based structure and some form of persistent progression, because that is what roguelite generally means. It does not tell you whether upgrades persist between runs, whether they are hero-specific, or how unlocking works.
 
-Different queues ask very different things of a team. The table below breaks down what each style of play actually demands. Exact player limits and rotation timers shift between builds, so confirm the numbers in your lobby screen before inviting a full squad.
+Third-party guides have started appearing since launch, and they can be genuinely useful for orientation — where a menu lives, roughly how a run flows, which early upgrade feels strong. Treat them as secondary observations from other players, not as developer documentation. If a guide states a specific multiplier, an exact skill node cost, or a full hero roster, ask where that number came from. If the answer is "datamining" or "I tested it," it is community data that can change with any Early Access patch.
 
-| Mode Type | Typical Team Size | Primary Focus | Best For |
-|---|---|---|---|
-| Story Co-Op | 2–4 players | Narrative branches, meter management | First-time groups, completionists |
-| Endless Siege | 3–4 players | Wave survival, resource rationing | Testing builds and synergy |
-| Ranked Trials | Fixed squad | Speed, execution, no-death bonuses | Experienced teams chasing leaderboards |
-| Private Lobby | Flexible | Custom rules, practice, teaching | Coaching new players |
-| Challenge Runs | 1–2 players | Constraint-based bragging rights | Solo and duo specialists |
+The reliable hierarchy looks like this:
 
-Two patterns show up again and again in community reports. First, larger teams are not automatically easier — more players means more chances to accidentally drain the meter. Second, Endless Siege is the fastest way to learn enemy patterns, because the mode isolates combat from narrative decisions.
-
-| Difficulty Tier | Enemy Aggression | Meter Decay | Recommended Experience |
-|---|---|---|---|
-| Story | Low | Forgiving | No prior runs needed |
-| Standard | Moderate | Steady | One or two completed runs |
-| Hardened | High | Punishing | Familiar with all phases |
-| Nightmare | Extreme | Brutal | Full squad with assigned roles |
-
-## Roles, Loadouts, and Team Composition
-
-Random picks lose to structured teams almost every time. In Mad King Redemption multiplayer, four broad roles cover nearly every situation. You do not need one of each, but you should never stack three players into the same job.
-
-| Role | Primary Job | Key Priorities | Pairs Well With |
-|---|---|---|---|
-| Vanguard | Break shield walls, hold choke points | Armor, stagger resistance | Warden |
-| Warden | Sustain the team, revive, cleanse debuffs | Healing output, cooldown speed | Anyone |
-| Arcanist | Control crowds, expose weak points | Area denial, debuff duration | Scout |
-| Scout | Map objectives, interrupt rituals, scout routes | Mobility, stealth, detection | Arcanist |
-
-### Composition Rules That Actually Work
-
-- **Always bring at least one Warden.** Runs without sustain tend to collapse in the third phase, when attrition outpaces damage.
-- **Do not double up on Scouts** unless the map is unusually large. Two scouts usually means two players who are not contributing to the fight.
-- **Match loadouts to the ending you want.** Redeem-focused teams lean on control and support tools; confrontation-focused teams stack burst damage.
-- **Assign a shot caller before the first gate.** The player who reads the meter should not also be the player with the most demanding rotation.
-
-Player experience suggests that the single biggest upgrade to a struggling team is not better gear — it is a clearly defined shot caller and a Warden who is not also trying to top the damage chart.
-
-## Phase-by-Phase Walkthrough of a Standard Run
-
-Most runs follow the same skeleton. Knowing what comes next lets your team pre-position instead of reacting.
-
-| Phase | What Happens | Team Priority | Common Failure |
-|---|---|---|---|
-| 1. Approach | Choose a breach point, clear outer patrols | Scout ahead, avoid alarms | Triggering an early alarm spike |
-| 2. First Wave | Loyalists respond to your entry | Hold a defensible corner | Splitting into two groups |
-| 3. Mid-Run Objectives | Shrines, prisoners, supply caches | Decide meter direction as a team | Mixed signals on mercy choices |
-| 4. The King's Court | Elite guards, environmental hazards | Control space, burn elites together | Tunnel vision on the boss |
-| 5. Final Confrontation | Ending determined by the meter | Execute the assigned plan | Panic-triggering the final choice |
-| 6. Extraction | Escape under pressure | Move as one, cover the rear | Leaving a downed ally behind |
-
-Two phases decide most runs. The mid-run objective phase sets your ending, and the King's Court phase decides whether you arrive there healthy. Teams that treat the court as a damage check rather than a space-control problem usually lose a player right before the finale.
-
-## Strategy, Communication, and Common Mistakes
-
-Good Mad King Redemption multiplayer teams talk in short, specific phrases rather than narrating everything they see. Precision beats volume.
-
-### Callouts Worth Standardizing
-
-| Callout | Meaning | When to Use |
+| Source | What it's good for | What it can't tell you |
 |---|---|---|
-| "Meter check" | Report current redemption/corruption value | Every objective completion |
-| "Hold mercy" | Do not execute or loot yet | Before branching choices |
-| "Stack left" | Regroup on the left flank | Incoming area attacks |
-| "Burning ult" | Committing a major cooldown | Before a coordinated push |
-| "Reset" | Disengage and heal | When two players are critical |
+| Official Steam page | Genre, premise, advertised features, release state | Hero list, skill tree, damage values, unlock levels |
+| In-game codex | Current mechanics as the build implements them | Future changes |
+| Third-party guides | Orientation, general approaches, community impressions | Anything presented as developer-documented fact |
 
-### Mistakes That Cost Runs
+## Why "redemption" matters for how you read the game
 
-- **Treating the meter as someone else's job.** Everyone contributes to it, so everyone should track it.
-- **Hoarding cooldowns for the boss.** Most wipes happen in phase four, not phase five.
-- **Chasing kills instead of objectives.** The mode rewards progress, not elimination counts.
-- **Reviving in the open.** A downed ally in a bad spot is often bait; clear space first.
-- **Ignoring audio cues.** Ritual chants and shield hums telegraph the next wave earlier than any visual.
-- **Rage-quitting after a bad ending.** The mode is built for repeat runs, and most progression carries forward.
+The title is doing thematic work that affects expectations. The kingdom fell *because* the Mad King tried to bring the queen back with forbidden magic — the catastrophe and the motive are the same event. That framing suggests a story about consequence rather than a simple "kill the evil tyrant" setup, though the store page does not detail how far the narrative goes or whether the King is the final encounter.
 
-If you only fix one habit, fix the first one. Teams that share meter responsibility naturally make better branching decisions, because nobody is surprised by the ending they get.
+Practical takeaway: do not assume the boss structure. The store page does not list bosses, and it does not confirm the Mad King appears as a fightable enemy at any particular point. If you are planning a run around an expected final boss, you are planning around something undocumented. Check the in-game codex or simply play through and observe.
 
-### Progression and Replay Value
+## Practical advice for Early Access players
 
-Progression in this mode tends to be account-wide rather than run-specific, which softens the sting of a failed attempt. Expect to earn cosmetics, role-specific tools, and story fragments that unlock new dialogue on later runs. Because endings branch, a single playthrough never shows you everything — which is why most players report running the mode several times before moving on.
+Because the systems are not fully documented publicly, your best approach is empirical rather than prescriptive:
 
-| Progression Track | What It Unlocks | Rewarded By |
-|---|---|---|
-| Reputation | Cosmetics, titles | Completed runs |
-| Role Mastery | Loadout perks, alternate abilities | Playing a role consistently |
-| Story Fragments | New dialogue, lore entries | Branch-specific endings |
-| Challenge Seals | Difficulty modifiers | Constraint-based clears |
+1. **Read the in-game codex first.** It reflects the build you are actually playing, which no external page can guarantee.
+2. **Test upgrades rather than trusting tier lists.** Community rankings written before a patch may not describe the current balance.
+3. **Expect change.** Early Access means hero tuning, skill costs, and run structure can shift. Anything you read today, including this article, describes a snapshot.
+4. **Check the official page after patches.** The [Steam store page](https://store.steampowered.com/app/2369580/) is the authority on what the developer claims, and it updates alongside the build.
+
+None of this guarantees success in a given run — roguelite outcomes depend on your execution, the build you assemble, and randomness the store page does not describe.
+
+## What is simply not documented
+
+Being clear about gaps is more useful than filling them with plausible-sounding invention. As of this writing, the official store page does not document:
+
+- a complete hero roster or their individual stats;
+- the full skill tree, node names, or unlock requirements;
+- a boss list or encounter order;
+- damage numbers, cooldowns, or frame data;
+- meta-progression currencies or how they are earned;
+- patch notes beyond what Steam publishes.
+
+If you need any of that, the in-game codex and the official Steam page are where to look. Anything else is inference.
 
 ## FAQ
 
-**Is Mad King Redemption multiplayer playable solo?**
-Yes, most builds allow a solo or duo entry, but the mode is tuned around cooperation. Solo runs are usually treated as challenge content rather than the intended experience, and some endings may be difficult or impossible to reach alone.
+**Is Mad King Redemption a roguelike or a beat'em'up?**
+Both, per the developer. The store page describes it as a beat'em'up with old-school controls and a retro feel plus 3D mechanics, built around brawler combat with deep roguelite elements.
 
-**How many players should I bring for a first run?**
-Two to four players is the sweet spot for learning. A smaller group makes meter management easier to coordinate, while a full squad gives you role coverage. Start with Story difficulty and a Warden in the lineup.
+**Who made it, and when did it launch?**
+Developer SECRET MISSION, Early Access release 14 May 2026, per the official [Steam page](https://store.steampowered.com/app/2369580/).
 
-**Does one player's choices ruin the ending for everyone?**
-In practice, yes — the meter is shared. That is why experienced groups agree on an ending target before the mid-run objectives and call out "hold mercy" before any branching decision.
+**Where can I find the hero list and skill tree?**
+The store page does not publish them. Use the in-game codex; it reflects your current build.
 
-**What is the fastest way to improve at Mad King Redemption multiplayer?**
-Run Endless Siege to drill combat and spacing, then return to Story Co-Op with an assigned shot caller. Community reports consistently point to role clarity, not gear, as the biggest difference-maker.
+**Are community tier lists reliable?**
+They are third-party observations, not developer documentation, and Early Access balance changes can invalidate them quickly.
 
-Get the fundamentals down — shared meter awareness, a defined shot caller, and one reliable Warden — and the mode stops feeling punishing and starts feeling like the cooperative story it was designed to be.
+**Will the game change?**
+It is in Early Access, so yes. Treat every system description, including this one, as a snapshot of the verified facts available on 14 October 2026.

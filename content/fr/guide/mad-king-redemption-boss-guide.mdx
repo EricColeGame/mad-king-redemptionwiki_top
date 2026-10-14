@@ -1,134 +1,86 @@
 export const metadata = {
-  title: "Guide du boss Mad King Redemption : phases, mécaniques et tactiques victorieuses",
-  description: "Un guide pratique du boss Mad King Redemption couvrant la préparation, la stratégie phase par phase, les rôles d'équipe et les erreurs qui causent les wipes.",
+  title: "Mad King Redemption : ce que le beat'em'up en Early Access promet réellement",
+  description: "Un regard mesuré sur Mad King Redemption, le beat'em'up en Early Access de SECRET MISSION avec des éléments roguelite : fonctionnalités annoncées, inconnues et comment vérifier.",
   category: "guide",
-  date: "2026-10-03",
-}
+  date: "2026-10-14",
+};
 
-Le combat contre Mad King Redemption a le don d'humilier même les groupes confiants. Il punit le positionnement approximatif, récompense la coordination patiente et refuse d'être vaincu à la seule force des dégâts bruts. C'est pourquoi un guide de boss **Mad King Redemption** fiable compte autant — une fois que vous comprenez ce que l'encounter attend réellement de vous, le combat cesse de paraître aléatoire et commence à sembler résoluble.
+Mad King Redemption arrive avec un postulat qui écrit pratiquement sa propre bande-annonce : un souverain qui recourt à la magie interdite pour ramener la reine, perd la raison dans la tentative, et entraîne le royaume dans sa chute. Développé par SECRET MISSION et sorti en Early Access sur Steam le 14 mai 2026, le jeu se présente comme un beat'em'up à défilement horizontal teinté de progression roguelite. Cette combinaison est assez courante pour être familière, mais le fantasme spécifique ici — un monarque déchu à la fois cause et cible de l'effondrement — donne au postulat un ancrage émotionnel clair.
 
-Ce guide du boss **Mad King Redemption** décompose l'encounter en ses éléments mobiles : ce qu'il vous faut avant de pull, comment chaque phase change les règles, quels rôles portent le plus de poids, et les habitudes précises qui transforment une tentative propre en wipe. Il se concentre sur le *pourquoi* derrière chaque mécanique, car mémoriser une rotation sans la comprendre s'effondre dès que quelque chose dérape légèrement.
+Cet article s'en tient à ce qui est vérifiable. La page du magasin fait autorité sur ce que le jeu annonce, le label Early Access signifie que les systèmes peuvent encore évoluer, et tout ce qu'un guide tiers affirme sur les tiers de héros ou les patterns de boss doit être traité comme une observation plutôt qu'une documentation. Là où un mot-clé populaire suppose un tableur de statistiques, cet article dira clairement que rien de tel n'est publié.
 
-## Ce qui rend le combat contre Mad King Redemption si punitif
+La fiche officielle du jeu est ici : [Mad King Redemption sur Steam](https://store.steampowered.com/app/2369580/). Commencez par là pour la liste actuelle des fonctionnalités, les notes de patch et le prix, qui peuvent tous changer pendant l'Early Access.
 
-La plupart des boss sont difficiles pour une seule raison — un check de dégâts brutal, une fenêtre d'esquive serrée, une vague d'adds punitive. L'encounter Mad King Redemption est difficile parce qu'il empile plusieurs de ces pressions à la fois, puis ajoute une mécanique qui punit activement la panique.
+## Ce que la page du magasin annonce
 
-L'identité du combat tourne autour de sa mécanique de rédemption. Plutôt qu'une pure course aux dégâts, l'encounter donne à votre groupe une occasion récurrente de retirer du pouvoir au boss et de faire basculer l'arène en votre faveur. Ignorez-la et le boss prend le dessus. Gérez-la correctement et le combat devient nettement plus gérable à chaque passage. Les retours de la communauté décrivent systématiquement cela comme le plus grand test de compétence de l'encounter — pas les réflexes, mais la *prise de décision sous pression*.
+La description Steam structure le jeu autour de trois piliers, et il vaut la peine de les distinguer car les joueurs les confondent souvent.
 
-Voici ce que l'encounter vous lance :
+Premièrement, le postulat narratif : le royaume est tombé aux mains du Roi Fou après qu'il a utilisé la magie interdite pour tenter de réanimer la reine, et la tentative lui a coûté la raison. C'est une mise en place, pas une promesse de profondeur narrative ramifiée — la page du magasin ne décrit ni arbres de dialogue, ni fins multiples, ni systèmes de factions.
 
-- **Mécaniques qui se chevauchent.** Les checks de déplacement, les checks d'interruption et la gestion des adds se produisent rarement isolément. Attendez-vous à ce qu'au moins deux soient actifs simultanément pendant les fenêtres de transition.
-- **Fenêtres de timing serrées.** L'occasion de rédemption est brève. Les groupes qui hésitent ou qui s'investissent trop dans les dégâts la manquent généralement.
-- **Attrition des ressources.** Les soins et les cooldowns défensifs sont drainés plus vite que dans un combat typique, donc la discipline des cooldowns compte plus que le débit brut.
-- **Punition de la cupidité.** Des dégâts supplémentaires pendant un moment de vulnérabilité sont souvent exactement ce qui cause le wipe suivant.
+Deuxièmement, le combat : massacrer des hordes d'ennemis avec un combat de type brawler. La page décrit cela comme un beat'em'up qui combine des contrôles old-school et une ambiance rétro avec des mécaniques 3D. Cette formulation fait un vrai travail. « Contrôles old-school » suggère un rythme familier d'attaque, de saut et de gestion de foule plutôt qu'un système d'action à personnages riche en combos. « Mécaniques 3D » est vague en soi ; la page ne précise pas si cela signifie des hitboxes 3D, un déplacement en profondeur sur un axe Z, ou des environnements entièrement modélisés avec une logique de gameplay 2D. Les joueurs devraient tester cela dans le stage d'ouverture plutôt que de le présumer.
 
-À retenir simplement : c'est un combat autant axé sur la retenue que sur la production de dégâts. Les groupes qui le traitent comme une course aux dégâts finissent généralement par se heurter à un mur.
+Troisièmement, la progression : des éléments roguelite profonds, l'amélioration des héros et le déblocage de multiples compétences. Notez le pluriel — « héros » et « compétences » — sans aucune énumération. La page du magasin ne publie ni roster complet de héros, ni arbre de compétences, ni liste de boss, ni valeurs de dégâts.
 
-## Checklist de préparation avant de pull
+| Annoncé | Non documenté sur la page du magasin |
+|---|---|
+| Combat de type brawler contre des hordes | Inputs de combo exacts ou raccourcis clavier |
+| Éléments roguelite | Durée des runs, noms des méta-monnaies, taux de drop |
+| Améliorations de héros | Roster complet des héros ou stats par héros |
+| Multiples compétences déblocables | Structure de l'arbre de compétences ou niveaux de déblocage |
+| Ambiance rétro avec mécaniques 3D | Si la 3D affecte le mouvement, les hitboxes, ou les deux |
 
-La préparation est là où la plupart des wipes se décident en réalité. Bien avant le pull, vous devez savoir quels consommables, outils défensifs et compétences utilitaires votre groupe apporte — et qui est responsable de quoi.
+## La question roguelite : ce que « profond » signifie en pratique
 
-| Élément de préparation | Pourquoi c'est important | Priorité |
-|---|---|---|
-| Cooldowns défensifs planifiés | Les répartir entre les phases au lieu de tous les brûler trop tôt | Élevée |
-| Outils de déplacement et de gap-closing | Les fenêtres de transition exigent un repositionnement rapide | Élevée |
-| Purges et ruptures de crowd-control | Les debuffs s'empilent vite et enchaînent vers la mort | Élevée |
-| Outils de nettoyage des adds | Les vagues d'adds pendant les phases de transition décident le tempo | Moyenne |
-| Builds de dégâts soutenus plutôt que burst | Le combat récompense la constance, pas les pics de dégâts | Moyenne |
-| Communication vocale ou pings clairs | La fenêtre de rédemption nécessite un seul annonceur | Élevée |
-| Notes de patch et builds actuels | Les changements d'équilibrage modifient ce qui fonctionne du jour au lendemain | Moyenne |
+« Éléments roguelite profonds » est la phrase la plus susceptible d'induire en erreur. Dans le genre, roguelite signifie généralement une combinaison de progression basée sur les runs, d'améliorations aléatoires et de déblocages persistants entre les tentatives. Mais la phrase seule ne vous dit pas le ratio.
 
-Quelques notes pratiques que les joueurs expérimentés répètent constamment :
+La question pratique pour un beat'em'up est de savoir où se situe la couche roguelite. Deux modèles courants existent. Dans l'un, le stage est fixe et l'aléatoire réside dans les choix d'amélioration proposés entre les combats. Dans l'autre, la disposition du stage, la composition des ennemis et les récompenses changent à chaque run. La page du magasin ne s'engage ni vers l'un ni vers l'autre, et aucune source vérifiée ne décrit l'ampleur de l'aléatoire.
 
-- **Ne compensez pas tout par l'équipement.** De meilleures statistiques aident, mais ne corrigent pas un mauvais positionnement. Les groupes qui sur-équipent le combat développent souvent des habitudes approximatives qui s'effondrent aux difficultés supérieures.
-- **Faites un pull de reconnaissance.** Traitez votre première tentative comme une collecte d'informations. Notez où les dégâts piquent, quand les adds apparaissent et combien de temps la fenêtre de rédemption dure réellement en pratique.
-- **Confirmez la mécanique, pas la rumeur.** Les encounters de boss sont patchés. Pour tout ce qui est spécifique à une version, consultez les notes de patch officielles ou la [page Steam officielle du jeu](https://store.steampowered.com/) plutôt qu'un wiki qui peut avoir des mois de retard.
+Parce qu'il s'agit d'un Early Access, la réponse honnête est que l'équilibrage peut évoluer. Le tuning roguelite est l'un des systèmes les plus fréquemment ajustés en Early Access, précisément parce que les taux de drop et les pools d'améliorations sont faciles à itérer. Si vous décidez d'acheter maintenant, traitez toute affirmation spécifique sur la structure des runs comme provisoire jusqu'à ce que vous ayez vous-même joué quelques runs.
 
-## Stratégie phase par phase pour l'encounter Mad King Redemption
+## Observations de la communauté versus documentation des développeurs
 
-Chaque version de ce combat suit le même rythme général, même lorsque les chiffres changent. Voici sa structure.
+Les guides tiers pour les jeux en Early Access ont tendance à apparaître vite et à mal vieillir. Un guide écrit la première semaine peut décrire un équilibrage qu'un patch a depuis modifié, et ses conseils peuvent refléter la chance d'un joueur avec des améliorations aléatoires plutôt qu'une stratégie reproductible.
 
-| Phase | Ce qui change | Votre priorité |
-|---|---|---|
-| Ouverture | Le boss teste vos mécaniques de base | Apprendre les tells, rester propre, ne pas brûler les cooldowns |
-| Pression | Les adds et le contrôle de zone se chevauchent | Contrôler l'arène, garder le groupe mobile |
-| Fenêtre de rédemption | Le boss devient vulnérable à la mécanique | Exécuter la rédemption correctement, sans exception |
-| Dernier combat | Les dégâts et la densité des mécaniques atteignent leur pic | Survivre d'abord, dégâts ensuite |
+La façon la plus sûre d'utiliser le contenu communautaire est de le traiter comme une mise à l'épreuve d'hypothèses. Si un guide dit qu'un héros particulier porte les runs précoces, c'est une affirmation à vérifier dans votre propre session, pas un fait documenté. S'il nomme des valeurs de dégâts spécifiques, demandez d'où viennent ces chiffres — la page Steam ne les publie pas, donc tout chiffre est soit dataminé, soit testé, soit inventé.
 
-### Phase 1 — L'échange d'ouverture
+Le codex in-game est l'autorité pour les systèmes propres au jeu. Quand une source et le codex sont en désaccord, le codex et la version live gagnent. Les guides tiers sont utiles pour l'orientation et pour repérer des choses que vous auriez pu manquer, pas pour trancher des questions de règles.
 
-C'est la phase d'apprentissage. Le boss télégraphie ses capacités principales, et votre travail consiste à apprendre le rythme plutôt qu'à prendre de l'avance. Gardez vos cooldowns défensifs en réserve. Les groupes qui ouvrent avec tout ce qu'ils ont se retrouvent généralement à nu quand la première vraie phase de pression arrive.
+## Une approche pratique des beat'em'ups en Early Access
 
-Concentrez-vous sur un positionnement propre. Si votre groupe se disperse ici, vous le paierez plus tard quand les checks de déplacement forceront tout le monde à se repositionner en même temps.
+Acheter un beat'em'up en Early Access est une décision différente de l'achat d'un jeu terminé. Quelques habitudes rendent l'expérience plus prévisible.
 
-### Phase 2 — Le jugement de la Couronne
+Vérifiez la cadence des mises à jour avant de vous engager. Le fil d'actualités Steam et l'historique des patchs sur la page du magasin vous indiquent si SECRET MISSION itère activement ou laisse la version stagner. La cadence n'est pas la qualité, mais c'est le signal le plus clair disponible pour savoir si les systèmes sont encore en mouvement.
 
-C'est ici que le combat cesse d'être poli. Les vagues d'adds, le contrôle de zone et les mécaniques ciblées arrivent ensemble, et l'arène devient plus petite en pratique même si sa taille ne change pas. Assignez une personne pour annoncer les adds et une pour annoncer les déplacements. Deux voix sont gérables ; cinq, c'est le chaos.
+Jouez la première heure comme un audit de système plutôt qu'une tentative de complétion. Notez si la caméra et l'axe de profondeur se comportent comme la formulation « mécaniques 3D » le suggère. Notez si les améliorations arrivent entre les stages, en milieu de stage, ou à la fin d'un run. Rien de tout cela n'est documenté, et une heure d'observation directe vaut mieux qu'une douzaine de résumés de seconde main.
 
-Si votre groupe dispose d'une purge ou d'une rupture de crowd-control, c'est généralement la phase qui la justifie. La garder pour le dernier combat signifie souvent que vous n'atteindrez jamais le dernier combat.
+Gardez des attentes modestes sur l'ampleur du contenu. La page du magasin annonce des héros et des compétences au pluriel mais ne s'engage sur aucun nombre. Si un roster complet vous importe, attendez que la page ou le codex le documente plutôt que de présumer un chiffre.
 
-### Phase 3 — La fenêtre de rédemption
+Enfin, ne traitez aucun guide — celui-ci inclus — comme la promesse qu'une approche donnée fonctionnera. Les systèmes roguelite sont construits sur la variance. Le mieux que quiconque puisse offrir est un cadre pour évaluer ce que vous trouvez.
 
-C'est le cœur de l'encounter et la raison pour laquelle le combat porte ce nom. Le boss expose une vulnérabilité qui permet à votre groupe d'inverser la dynamique — mais seulement si le groupe s'engage ensemble et exécute l'action requise proprement.
+## Comment vérifier tout ce que vous lisez
 
-Trois règles qui tiennent dans presque toutes les versions du combat :
+La boucle de vérification est simple et mérite d'être énoncée explicitement.
 
-1. **Annoncez-la avant qu'elle ne s'ouvre.** Celui qui annonce doit prévenir la fenêtre un temps à l'avance pour que personne ne soit en pleine incantation.
-2. **Tout le monde participe.** Un engagement partiel est généralement pire que rien, car il gâche la fenêtre et vous laisse hors position.
-3. **Réinitialisez après sa fermeture.** Dès que la fenêtre se termine, le boss riposte souvent immédiatement. Ayez un plan pour les trois premières secondes qui suivent.
+Ouvrez la [page Steam officielle](https://store.steampowered.com/app/2369580/) et lisez la description actuelle plutôt qu'une copie en cache. Consultez les notes de patch les plus récentes pour les changements de progression ou de combat. Ensuite, lancez le jeu et utilisez le codex in-game pour les détails sur les héros, les compétences et les ennemis. Si une affirmation n'existe dans aucun de ces endroits, c'est de la spéculation.
 
-Manquez la fenêtre et le combat devient plus difficile, mais il n'est pas terminé. L'expérience des joueurs suggère que se remettre d'une fenêtre manquée est très faisable — se remettre de deux, c'est là où la plupart des groupes s'effondrent.
+Cela compte plus que d'habitude pour Mad King Redemption parce que le postulat invite aux théories de fans sur le Roi Fou lui-même — s'il est rachetable, si le titre renvoie à lui ou au joueur, et ce que la magie interdite a réellement coûté. La page du magasin vous donne la mise en place et s'arrête là. Tout ce qui va au-delà est interprétation, et l'interprétation est acceptable tant qu'elle est étiquetée comme telle.
 
-## Rôles, composition et scaling de difficulté
+## FAQ
 
-La composition compte moins que la clarté des rôles. Un groupe avec des responsabilités clairement définies bat presque toujours une "meilleure" composition aux rôles flous.
+**Mad King Redemption est-il un roguelike ou un beat'em'up ?**
+La page du magasin le décrit comme un beat'em'up avec des éléments roguelite, pas un roguelike pur. Le combat de type brawler contre des hordes est le cœur annoncé.
 
-| Rôle | Tâche principale | Échec le plus courant |
-|---|---|---|
-| Tank / Frontline | Tenir le positionnement du boss et contrôler l'arène | Dériver pendant les checks de déplacement et traîner des mécaniques dans le groupe |
-| Healer / Support | Soutenir pendant les phases de pression, purger selon le planning | Trop soigner tôt et se retrouver à sec pendant le dernier combat |
-| Dégâts principaux | Production constante sans cupidité | Glisser des incantations supplémentaires pendant les fenêtres de transition |
-| Utilitaire / Flex | Interruptions, contrôle des adds, exécution de la rédemption | Ne pas être assigné, donc personne ne sait qui couvre quoi |
-| Annonceur | Annoncer les changements de phase et la fenêtre de rédemption | Annoncer trop tard ou trop vaguement |
+**Qui l'a développé et quand est-il sorti ?**
+SECRET MISSION l'a développé, et il est entré en Early Access sur Steam le 14 mai 2026.
 
-Sur le scaling de difficulté, attendez-vous aux mêmes mécaniques avec moins de clémence plutôt qu'à des mécaniques entièrement nouvelles.
+**La page du magasin liste-t-elle tous les héros et compétences ?**
+Non. Elle annonce l'amélioration des héros et le déblocage de multiples compétences mais ne publie ni roster complet, ni arbre de compétences, ni niveaux de déblocage. Le codex in-game fait autorité.
 
-| Difficulté | Ce qui change généralement | Recommandé pour |
-|---|---|---|
-| Histoire / Normal | Dégâts plus doux, fenêtres plus longues, moins d'adds | Premier clear, apprentissage des tells |
-| Héroïque / Difficile | Fenêtres plus serrées, plus d'adds, dégâts plus élevés | Groupes ayant mémorisé les mécaniques |
-| Défi / palier Mythique | Tout se chevauche ; une erreur termine souvent la tentative | Équipes coordonnées en quête de récompenses de prestige |
+**Y a-t-il des valeurs de dégâts ou des taux de drop publiés ?**
+Pas sur la page du magasin. Tout chiffre spécifique que vous voyez ailleurs est une observation tierce ou une donnée dataminée, pas une documentation des développeurs.
 
-Si vous êtes bloqué, la solution la plus fiable n'est pas une amélioration d'équipement — c'est de descendre d'un palier de difficulté, de refaire le combat jusqu'à ce que les mécaniques deviennent une mémoire musculaire, puis de remonter.
+**Puis-je faire confiance aux guides de build communautaires ?**
+Utilisez-les comme points de départ, pas comme règles. L'équilibrage en Early Access change, et les conseils communautaires reflètent souvent l'expérience d'un joueur avec des améliorations aléatoires.
 
-## Erreurs courantes qui font wipe les groupes — et comment les corriger
-
-Presque chaque wipe dans cet encounter remonte à une poignée d'habitudes. Voici comment les repérer et quoi changer.
-
-| Erreur | Symptôme | Correction |
-|---|---|---|
-| Greeder des dégâts pendant les transitions | Morts soudaines au moment où une phase change | Arrêter net les dégâts un temps avant chaque transition |
-| Garder les cooldowns pour "plus tard" | Le groupe s'effondre pendant la phase de pression | Assigner les cooldowns à des phases précises à l'avance |
-| Positionnement dispersé | Les mécaniques de déplacement touchent plusieurs joueurs à la fois | Désigner un point de stack souple et y revenir souvent |
-| Fenêtre de rédemption silencieuse | Personne ne réagit à temps, la fenêtre se ferme | Un annonceur, un compte à rebours, pas de débat en plein combat |
-| Interruptions non assignées | Les incantations passent et enchaînent | Écrire qui interrompt quoi avant le pull |
-| Ignorer les vagues d'adds | Le boss prend le dessus plus vite que vous ne pouvez soigner | Nettoyer les adds à l'apparition, pas quand ils deviennent un problème |
-| Tilter après une mauvaise tentative | Erreurs identiques répétées | Faire une pause de cinq minutes toutes les trois wipes |
-
-Une habitude supplémentaire mérite d'être nommée : revoir un enregistrement. Regarder un seul wipe au ralenti révèle des erreurs de positionnement invisibles en temps réel. La plupart des groupes progressent plus vite avec une tentative enregistrée qu'avec cinq tentatives à l'aveugle.
-
-## FAQ sur le guide du boss Mad King Redemption
-
-**Le combat contre Mad King Redemption est-il soloable ?**
-En général, non — ou du moins pas d'une manière qui reflète l'expérience prévue. L'encounter repose sur la séparation des rôles, et la fenêtre de rédemption est conçue autour d'une exécution coordonnée en groupe. Les tentatives solo n'existent généralement que comme défis de joueurs très expérimentés.
-
-**Combien de temps prend un clear typique ?**
-Une fois que votre groupe comprend les phases, la plupart des tentatives se résument à l'exécution plutôt qu'à la durée. C'est la période d'apprentissage qui prend du temps — attendez-vous à plusieurs tentatives consacrées uniquement à reconnaître les tells avant votre premier clear réaliste.
-
-**Quelle est la chose la plus importante à réussir ?**
-La fenêtre de rédemption. Tout le reste du combat est survivable. Gérer proprement la mécanique de rédemption est ce qui sépare les groupes qui clear de ceux qui stagnent encore et encore sur la même phase.
-
-**Ce guide du boss Mad King Redemption s'applique-t-il à toutes les difficultés ?**
-La structure et les priorités se transposent entre les difficultés, mais les chiffres et les niveaux de clémence changent. Vérifiez toujours les détails spécifiques à la version dans les notes de patch actuelles, car les mises à jour d'équilibrage peuvent modifier ce qu'une stratégie donnée peut absorber.
-
-En bref : préparez-vous délibérément, annoncez la fenêtre de rédemption tôt, résistez à l'envie de greed des dégâts, et traitez chaque wipe comme une donnée plutôt qu'un échec. Faites ces quatre choses et l'encounter Mad King Redemption passe d'un mur à une étape marquante.
+**Où dois-je vérifier pour des informations à jour ?**
+La [page du magasin Steam](https://store.steampowered.com/app/2369580/) et ses notes de patch, plus le codex in-game. Ce sont les sources qui restent exactes au fur et à mesure que la version évolue.
